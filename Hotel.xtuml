@@ -1422,7 +1422,7 @@ INSERT INTO DIM_CON
 	"4ce25eff-47a0-4864-a0fb-421a46bd8679");
 INSERT INTO DIM_CON
 	VALUES ("83cc3637-91cc-4ff9-a72f-4df8c2d4014d",
-	876.000000,
+	900.000000,
 	673.000000,
 	"4ce25eff-47a0-4864-a0fb-421a46bd8679");
 INSERT INTO GD_GE
@@ -2099,7 +2099,7 @@ INSERT INTO DIM_ELE
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO DIM_CON
 	VALUES ("4339e564-b9fa-47b7-9679-b02598cddd7b",
-	948.000000,
+	973.000000,
 	744.000000,
 	"fe815209-73bb-4b5c-8b1e-c1a2e8c267d2");
 INSERT INTO DIM_CON
@@ -2152,8 +2152,8 @@ INSERT INTO DIM_ND
 	0.000000,
 	"e5e79e40-b076-45c4-8c05-b43538c29e39");
 INSERT INTO DIM_GE
-	VALUES (898.000000,
-	683.000000,
+	VALUES (917.000000,
+	707.000000,
 	"e5e79e40-b076-45c4-8c05-b43538c29e39",
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO DIM_ELE
@@ -2187,14 +2187,14 @@ INSERT INTO GD_LS
 	"2e0fb0fe-3204-40e3-abef-005c965a09a9");
 INSERT INTO DIM_WAY
 	VALUES ("b8970bd8-a4b0-4fef-a995-3840e6e86f88",
-	876.000000,
+	900.000000,
 	673.000000,
 	"9c3d0bbd-5c89-4d78-82b5-120ea2509eaf",
 	"00000000-0000-0000-0000-000000000000",
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO DIM_WAY
 	VALUES ("2e0fb0fe-3204-40e3-abef-005c965a09a9",
-	948.000000,
+	973.000000,
 	744.000000,
 	"9c3d0bbd-5c89-4d78-82b5-120ea2509eaf",
 	"00000000-0000-0000-0000-000000000000",
@@ -4522,7 +4522,7 @@ INSERT INTO R_PART
 	"e4bd05d6-7945-4d57-8596-7947afe5c022",
 	"027a992d-7cce-46cb-8f86-7d4d31c84480",
 	1,
-	1,
+	0,
 	'');
 INSERT INTO R_RTO
 	VALUES ("14c8ed50-a7ec-428f-8fd2-b63b27a41906",
@@ -5017,12 +5017,6 @@ INSERT INTO CSME_CIE
 	"3ac39f35-31d7-4d22-9b6a-d1f7044d222f",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'Bill');
-INSERT INTO CSME_CIE
-	VALUES ("84bed63d-83ae-4dbd-a4c6-a57c58daaf2c",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"3ac39f35-31d7-4d22-9b6a-d1f7044d222f",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'Bill');
 INSERT INTO PE_PE
 	VALUES ("127791c6-4fd3-405b-9f2c-30bacb726c0c",
 	1,
@@ -5121,12 +5115,6 @@ INSERT INTO CSME_CIE
 	"127791c6-4fd3-405b-9f2c-30bacb726c0c",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'BillController');
-INSERT INTO CSME_CIE
-	VALUES ("dd2db453-5475-4277-8dcb-79724bb02daf",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"127791c6-4fd3-405b-9f2c-30bacb726c0c",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'BillController');
 INSERT INTO PE_PE
 	VALUES ("eddfdf24-ca39-422b-9d9e-869bca450236",
 	1,
@@ -5203,12 +5191,6 @@ INSERT INTO CSME_CIE
 	"eddfdf24-ca39-422b-9d9e-869bca450236",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'BillItem');
-INSERT INTO CSME_CIE
-	VALUES ("00672a82-061e-4653-b43b-bc4c8fef23a2",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"eddfdf24-ca39-422b-9d9e-869bca450236",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'BillItem');
 INSERT INTO PE_PE
 	VALUES ("f5e172c3-b125-4409-a105-f84c485f726e",
 	1,
@@ -5246,12 +5228,6 @@ INSERT INTO CSME_CIE
 INSERT INTO CSME_CIE
 	VALUES ("490bf283-4341-4fb2-a44d-40682a6f8548",
 	"00000000-0000-0000-0000-000000000000",
-	"f5e172c3-b125-4409-a105-f84c485f726e",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'ConferenceRoom');
-INSERT INTO CSME_CIE
-	VALUES ("21edb426-4928-4328-8b80-23d0026715ae",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
 	"f5e172c3-b125-4409-a105-f84c485f726e",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'ConferenceRoom');
@@ -5367,64 +5343,6 @@ INSERT INTO CSME_CIE
 	"14c8ed50-a7ec-428f-8fd2-b63b27a41906",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'Customer');
-INSERT INTO CSME_CIE
-	VALUES ("5a435613-53e1-41d6-8897-672e8257e685",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"14c8ed50-a7ec-428f-8fd2-b63b27a41906",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'Customer');
-INSERT INTO I_INS
-	VALUES ("c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"5a435613-53e1-41d6-8897-672e8257e685",
-	'13:Customer',
-	'13');
-INSERT INTO I_AVL
-	VALUES ("c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	"14c8ed50-a7ec-428f-8fd2-b63b27a41906",
-	"297cb62a-34e4-4882-a02a-bcb43af1f5ae",
-	'Robin',
-	'name = Robin',
-	"5db2c2dd-7bc0-4cc1-b1b6-ce19b84d0331");
-INSERT INTO I_AVL
-	VALUES ("c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	"14c8ed50-a7ec-428f-8fd2-b63b27a41906",
-	"6cdc99f8-40ea-498e-bdf6-61248214b4eb",
-	'123',
-	'card = 123',
-	"92f72e37-ce53-429c-baaa-203ce120411e");
-INSERT INTO I_AVL
-	VALUES ("c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	"14c8ed50-a7ec-428f-8fd2-b63b27a41906",
-	"5a685d6f-4404-4b17-bc08-75e3d7946e0c",
-	'None',
-	'membership = None',
-	"a140078e-1809-4ee2-a645-2f656b54c309");
-INSERT INTO I_AVL
-	VALUES ("c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	"14c8ed50-a7ec-428f-8fd2-b63b27a41906",
-	"f759fae3-8438-4ca6-a122-a702666d0d54",
-	'0',
-	'id = 0',
-	"dc4903d3-2c1a-4aca-89b4-f247124cb947");
-INSERT INTO I_LIP
-	VALUES ("e087abe6-3092-4d97-b109-3ac16c30edeb",
-	"c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	'R10');
-INSERT INTO I_LIP
-	VALUES ("e4bd05d6-7945-4d57-8596-7947afe5c022",
-	"c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	'R12');
-INSERT INTO I_LNK
-	VALUES ("cb0b1efe-68d9-47f0-867e-bec5d5ac89b4",
-	"e4bd05d6-7945-4d57-8596-7947afe5c022",
-	"c8133acc-b5cf-4285-a922-0b6db0a1052f",
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000");
 INSERT INTO PE_PE
 	VALUES ("c3fab15c-3389-4a08-9caf-d8fc083d0232",
 	1,
@@ -5447,8 +5365,6 @@ INSERT INTO O_TFR
 	1,
 	'// Create a new Customer
 
-LOG::LogInfo(message: "addIng customer");
-
 // Create object
 create object instance cust of Customer;
 // Assign id attribute
@@ -5458,12 +5374,18 @@ cust.name = param.name;
 cust.card = param.card;
 cust.membership = param.membership;
 
-
 //Relate to Customer
-//TODO This probably goes wrong.
 LOG::LogInfo(message: "Trying to relate Customer to CustomerController");
 LOG::LogInfo(message: "This is probably what goes wrong: from addCustomer in CustomerController");
 relate cust to self across R12;
+select any c related by self->Customer[R12];
+if (not_empty c)
+	if (c.id == cust.id)
+		LOG::LogInfo(message: "Added cust to the relation");
+	end if;
+else
+	LOG::LogInfo(message: "cust is not added to the relation");
+end if;
 return cust.id;',
 	1,
 	'',
@@ -5531,17 +5453,22 @@ INSERT INTO O_TFR
 	"ba5eda7a-def5-0000-0000-000000000002",
 	1,
 	'// Select all rooms
-select many customers related by self->Customer[R12];
+
+//select many customers related by self->Customer[R12];
+select many customers from instances of Customer;
+LOG::LogInfo(message: "Cheating, counting c in Customers instead of the relation");
+
+if (empty customers)
+	LOG::LogInfo(message: "customers are empty");
+end if;
 
 // Count them
 i = 0;
 for each cust in customers
-  LOG::LogInfo(message: "ping");
   i = i + 1;
 end for;
 
-return i;
-',
+return i;',
 	1,
 	'',
 	"9f1499d1-92fe-46d7-bf7f-20ed9ebfb1c9");
@@ -5590,12 +5517,6 @@ INSERT INTO CSME_CIE
 	"c3fab15c-3389-4a08-9caf-d8fc083d0232",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'CustomerController');
-INSERT INTO CSME_CIE
-	VALUES ("9797d869-0208-4e97-b6ab-ce0c980f37c4",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"c3fab15c-3389-4a08-9caf-d8fc083d0232",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'CustomerController');
 INSERT INTO PE_PE
 	VALUES ("8ebdcb95-349c-4db1-a43b-067e06d4b49a",
 	1,
@@ -5633,12 +5554,6 @@ INSERT INTO CSME_CIE
 INSERT INTO CSME_CIE
 	VALUES ("79e4f162-93cd-4745-863c-1397eded0abc",
 	"00000000-0000-0000-0000-000000000000",
-	"8ebdcb95-349c-4db1-a43b-067e06d4b49a",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'Dormitory');
-INSERT INTO CSME_CIE
-	VALUES ("e3b9a107-7200-456c-aad3-1a9cebe5e80d",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
 	"8ebdcb95-349c-4db1-a43b-067e06d4b49a",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'Dormitory');
@@ -5682,12 +5597,6 @@ INSERT INTO CSME_CIE
 	"d9f18ed5-e36b-4a90-bb86-6a157a5fdc14",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'Guest');
-INSERT INTO CSME_CIE
-	VALUES ("17382a6f-3353-4fd2-872e-c1eaf3cf43c8",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"d9f18ed5-e36b-4a90-bb86-6a157a5fdc14",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'Guest');
 INSERT INTO PE_PE
 	VALUES ("de194fef-5ba0-4104-9bc1-fd25b16f7cec",
 	1,
@@ -5725,12 +5634,6 @@ INSERT INTO CSME_CIE
 INSERT INTO CSME_CIE
 	VALUES ("a03bbf9b-9f1b-4cb1-adb1-f430d314e64f",
 	"00000000-0000-0000-0000-000000000000",
-	"de194fef-5ba0-4104-9bc1-fd25b16f7cec",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'PrivateRoom');
-INSERT INTO CSME_CIE
-	VALUES ("906f96f2-a16e-4140-99a6-ca4322d0c7d1",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
 	"de194fef-5ba0-4104-9bc1-fd25b16f7cec",
 	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
 	'PrivateRoom');
@@ -6774,12 +6677,6 @@ INSERT INTO I_LIP
 	VALUES ("384c50ce-cb0e-4f86-9e54-847c1fe0c931",
 	"f2044178-3c5d-48f4-b45d-5076bf06e129",
 	'R20');
-INSERT INTO CSME_CIE
-	VALUES ("c6574db1-1894-45f1-85c2-55228cc0aff8",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"dc6bc8ca-336f-492d-ab52-c28061397586",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'Reservation');
 INSERT INTO PE_PE
 	VALUES ("51dbffc2-e1d3-406c-aff8-939c09e72ef8",
 	1,
@@ -7695,41 +7592,6 @@ INSERT INTO I_LIP
 INSERT INTO I_LIP
 	VALUES ("304bc22d-6803-422e-97bc-ce3129ba4546",
 	"92271c82-06c6-4072-86ea-c2b9090a6797",
-	'R16');
-INSERT INTO CSME_CIE
-	VALUES ("e0f7f8b2-4b65-4059-85e9-b49d2f645e51",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"51dbffc2-e1d3-406c-aff8-939c09e72ef8",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'ReservationController');
-INSERT INTO I_INS
-	VALUES ("9d1eefc0-c3a2-4574-8a6f-d26a0f95cb92",
-	'',
-	"a1502a3f-8534-4b42-8063-2db9dbb3562e",
-	"cbd31a6f-8602-4b1d-8ad4-9080a4332f61",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"76bd262c-3c30-4c3b-89ad-067ace962e1f",
-	"e0f7f8b2-4b65-4059-85e9-b49d2f645e51",
-	'2:ReservationController',
-	'2');
-INSERT INTO I_AVL
-	VALUES ("9d1eefc0-c3a2-4574-8a6f-d26a0f95cb92",
-	"51dbffc2-e1d3-406c-aff8-939c09e72ef8",
-	"27cd661e-5a14-4ac2-8839-de6f9e96b837",
-	'1',
-	'id = 1',
-	"a79bb840-8b30-4fc3-b98e-2464814e2519");
-INSERT INTO I_LIP
-	VALUES ("1b51270e-1e67-4ba7-a2e7-f6bb25ad596e",
-	"9d1eefc0-c3a2-4574-8a6f-d26a0f95cb92",
-	'R13');
-INSERT INTO I_LIP
-	VALUES ("4b8d4ab9-8399-47f8-a3d5-4a95d2c24190",
-	"9d1eefc0-c3a2-4574-8a6f-d26a0f95cb92",
-	'R15');
-INSERT INTO I_LIP
-	VALUES ("304bc22d-6803-422e-97bc-ce3129ba4546",
-	"9d1eefc0-c3a2-4574-8a6f-d26a0f95cb92",
 	'R16');
 INSERT INTO PE_PE
 	VALUES ("8e1b29fc-c26a-491d-935d-be6518f05c41",
@@ -9665,348 +9527,6 @@ INSERT INTO I_LNK
 	"d221545e-e3aa-4f2b-9067-6cb71e68d2b4",
 	"b919d794-a09e-480b-a28a-40b2af817b11",
 	"00000000-0000-0000-0000-000000000000");
-INSERT INTO CSME_CIE
-	VALUES ("0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'Room');
-INSERT INTO I_INS
-	VALUES ("8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	'',
-	"af62b78d-37f4-403e-b408-51f4a4847777",
-	"64d057f1-2bd0-4985-8971-c786fa975063",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	'6:Room',
-	'6');
-INSERT INTO I_AVL
-	VALUES ("8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"9e4927b0-d463-4e98-b109-4c24f3d06501",
-	'',
-	'accessories = ',
-	"e7427b1f-3b17-47b5-8d48-0419116e0265");
-INSERT INTO I_AVL
-	VALUES ("8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"37bdae86-5899-40a3-8936-0ee4ea41c9ba",
-	'0',
-	'id = 0',
-	"30235ecc-d6ac-4f5e-b6be-c78756379643");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("3f48ca77-dbb0-43d1-8f29-db2a35084e75",
-	"454f219b-e5fd-4527-945a-84764b261aca",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("ff709da1-a629-4f48-89d2-af4d82d27838",
-	"8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("844dcf78-650c-46dd-8749-cd66be68f7dd",
-	"8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"8d108a3a-5c5d-4cf8-92c9-43bf1adb185b",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_INS
-	VALUES ("beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	'',
-	"af62b78d-37f4-403e-b408-51f4a4847777",
-	"64d057f1-2bd0-4985-8971-c786fa975063",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	'7:Room',
-	'7');
-INSERT INTO I_AVL
-	VALUES ("beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"9e4927b0-d463-4e98-b109-4c24f3d06501",
-	'',
-	'accessories = ',
-	"bf377fab-f2ea-4bc6-84bb-f29077d3dc2e");
-INSERT INTO I_AVL
-	VALUES ("beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"37bdae86-5899-40a3-8936-0ee4ea41c9ba",
-	'1',
-	'id = 1',
-	"1e5b9b10-42ce-4be1-81e9-5cbf6410fe33");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("4fc8fd28-1e93-4cbd-9220-2f19053e120a",
-	"454f219b-e5fd-4527-945a-84764b261aca",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("ff709da1-a629-4f48-89d2-af4d82d27838",
-	"beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("6b552979-0615-40a9-8c67-35633c6dc5f4",
-	"8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"beb9f5d2-590e-4e93-b25d-42c1e42417fc",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_INS
-	VALUES ("de7bfd67-c294-49fb-814c-5c57799eb779",
-	'',
-	"af62b78d-37f4-403e-b408-51f4a4847777",
-	"64d057f1-2bd0-4985-8971-c786fa975063",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	'8:Room',
-	'8');
-INSERT INTO I_AVL
-	VALUES ("de7bfd67-c294-49fb-814c-5c57799eb779",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"9e4927b0-d463-4e98-b109-4c24f3d06501",
-	'',
-	'accessories = ',
-	"d63268fa-78e7-445f-94d9-d905085f8d1f");
-INSERT INTO I_AVL
-	VALUES ("de7bfd67-c294-49fb-814c-5c57799eb779",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"37bdae86-5899-40a3-8936-0ee4ea41c9ba",
-	'2',
-	'id = 2',
-	"92507f1c-e71c-4543-997d-1d9a5d8aa993");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"de7bfd67-c294-49fb-814c-5c57799eb779",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("51677e7b-d0ad-44f5-8001-a1c441ae436b",
-	"454f219b-e5fd-4527-945a-84764b261aca",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"de7bfd67-c294-49fb-814c-5c57799eb779",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("ff709da1-a629-4f48-89d2-af4d82d27838",
-	"de7bfd67-c294-49fb-814c-5c57799eb779",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"de7bfd67-c294-49fb-814c-5c57799eb779",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("da024d96-034f-4979-9099-9884c4cad721",
-	"8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"de7bfd67-c294-49fb-814c-5c57799eb779",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_INS
-	VALUES ("d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	'',
-	"af62b78d-37f4-403e-b408-51f4a4847777",
-	"64d057f1-2bd0-4985-8971-c786fa975063",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	'9:Room',
-	'9');
-INSERT INTO I_AVL
-	VALUES ("d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"9e4927b0-d463-4e98-b109-4c24f3d06501",
-	'',
-	'accessories = ',
-	"494373f2-43bd-4636-b2c1-7ff78546f0bd");
-INSERT INTO I_AVL
-	VALUES ("d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"37bdae86-5899-40a3-8936-0ee4ea41c9ba",
-	'3',
-	'id = 3',
-	"aa09cec1-0626-496f-81f6-f58341b9193b");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("e48c8866-b978-4023-9b2d-76e9bd506b65",
-	"454f219b-e5fd-4527-945a-84764b261aca",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("ff709da1-a629-4f48-89d2-af4d82d27838",
-	"d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("7a7f318e-e7ea-4c24-87b0-0aa7cbc1bb95",
-	"8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"d58ad22b-3274-46ec-9ffd-8cf65ec0321b",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_INS
-	VALUES ("5973484a-a63f-45ef-8539-942427e509f1",
-	'',
-	"af62b78d-37f4-403e-b408-51f4a4847777",
-	"64d057f1-2bd0-4985-8971-c786fa975063",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	'10:Room',
-	'10');
-INSERT INTO I_AVL
-	VALUES ("5973484a-a63f-45ef-8539-942427e509f1",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"9e4927b0-d463-4e98-b109-4c24f3d06501",
-	'',
-	'accessories = ',
-	"3762bbe7-9906-437a-8bdb-72ff60f1d469");
-INSERT INTO I_AVL
-	VALUES ("5973484a-a63f-45ef-8539-942427e509f1",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"37bdae86-5899-40a3-8936-0ee4ea41c9ba",
-	'4',
-	'id = 4',
-	"52a58870-6bce-4c8d-a66d-666f4581cbd8");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"5973484a-a63f-45ef-8539-942427e509f1",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("e08b0ca0-c8b4-44b8-bbbb-2fce0ddd3b73",
-	"454f219b-e5fd-4527-945a-84764b261aca",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	"5973484a-a63f-45ef-8539-942427e509f1",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("ff709da1-a629-4f48-89d2-af4d82d27838",
-	"5973484a-a63f-45ef-8539-942427e509f1",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"5973484a-a63f-45ef-8539-942427e509f1",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("a902bfc7-86c4-48a9-80ea-ddbe0526bd74",
-	"8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"5973484a-a63f-45ef-8539-942427e509f1",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_INS
-	VALUES ("9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	'',
-	"af62b78d-37f4-403e-b408-51f4a4847777",
-	"64d057f1-2bd0-4985-8971-c786fa975063",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	'11:Room',
-	'11');
-INSERT INTO I_AVL
-	VALUES ("9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"9e4927b0-d463-4e98-b109-4c24f3d06501",
-	'',
-	'accessories = ',
-	"65241b0f-6448-4eae-8733-a8924d2aacdb");
-INSERT INTO I_AVL
-	VALUES ("9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"37bdae86-5899-40a3-8936-0ee4ea41c9ba",
-	'5',
-	'id = 5',
-	"ed19f502-940c-4aea-a840-2ef8cf46c240");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("1a5f73fb-5791-45ec-97a0-6ac336b4f70b",
-	"454f219b-e5fd-4527-945a-84764b261aca",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	"9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("ff709da1-a629-4f48-89d2-af4d82d27838",
-	"9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("cb31f821-b5f3-4148-a0c5-abe0d3bfa7d7",
-	"8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"9779105f-4cc1-43e6-b63c-c2bd0c17b282",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_INS
-	VALUES ("9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	'',
-	"af62b78d-37f4-403e-b408-51f4a4847777",
-	"64d057f1-2bd0-4985-8971-c786fa975063",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"0880c5fe-8e08-4dad-ad52-8c20a6c22a2c",
-	'12:Room',
-	'12');
-INSERT INTO I_AVL
-	VALUES ("9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"9e4927b0-d463-4e98-b109-4c24f3d06501",
-	'All-inclusivé',
-	'accessories = All-inclusivé',
-	"cf22a15b-45c3-4d66-ba85-a39192e10b4b");
-INSERT INTO I_AVL
-	VALUES ("9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	"8e1b29fc-c26a-491d-935d-be6518f05c41",
-	"37bdae86-5899-40a3-8936-0ee4ea41c9ba",
-	'6',
-	'id = 6',
-	"260fc1ab-5201-4dfc-8e01-0d2d6afc7967");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("82fa60c7-3d3f-4427-b760-966b11e042bb",
-	"454f219b-e5fd-4527-945a-84764b261aca",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	"9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("ff709da1-a629-4f48-89d2-af4d82d27838",
-	"9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("a3b6eb8a-4a74-4d3a-8dae-a6e377d7af2e",
-	"8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"9870d444-7a0b-4027-9de8-b6c80c13fb00",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
 INSERT INTO PE_PE
 	VALUES ("12c9990b-0a17-4c24-afe2-57149364a257",
 	1,
@@ -10021,26 +9541,6 @@ INSERT INTO O_OBJ
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_TFR
-	VALUES ("187aefbe-38a1-48c8-8f8b-9feeb68d12f1",
-	"12c9990b-0a17-4c24-afe2-57149364a257",
-	'getRoomCount',
-	'',
-	"ba5eda7a-def5-0000-0000-000000000002",
-	1,
-	'// Given a RoomType, count rooms',
-	1,
-	'',
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO O_TPARM
-	VALUES ("e44fbf72-12a5-417a-afaa-705c4d934885",
-	"187aefbe-38a1-48c8-8f8b-9feeb68d12f1",
-	'type',
-	"ba5eda7a-def5-0000-0000-000000000002",
-	0,
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	'');
-INSERT INTO O_TFR
 	VALUES ("b0d155cf-209f-47cf-ad15-3912879c3266",
 	"12c9990b-0a17-4c24-afe2-57149364a257",
 	'getRoomTypes',
@@ -10050,7 +9550,7 @@ INSERT INTO O_TFR
 	'// DEPRECATED // ',
 	1,
 	'[]',
-	"187aefbe-38a1-48c8-8f8b-9feeb68d12f1");
+	"00000000-0000-0000-0000-000000000000");
 INSERT INTO S_DIM
 	VALUES (0,
 	0,
@@ -10803,59 +10303,6 @@ INSERT INTO I_LIP
 	VALUES ("4b8d4ab9-8399-47f8-a3d5-4a95d2c24190",
 	"b919d794-a09e-480b-a28a-40b2af817b11",
 	'R15');
-INSERT INTO CSME_CIE
-	VALUES ("c8691b18-fef9-4d20-96f5-1accbbaf8253",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"12c9990b-0a17-4c24-afe2-57149364a257",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'RoomController');
-INSERT INTO I_INS
-	VALUES ("62134865-cc65-40a0-89ac-8e5f14917bfc",
-	'',
-	"7434fd7e-ed35-4f2e-87e6-af3288131143",
-	"32bbcfee-5cd3-4e59-b29f-46904fa1357c",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"8d7774c9-b834-4bea-aa26-11e4d062c391",
-	"c8691b18-fef9-4d20-96f5-1accbbaf8253",
-	'1:RoomController',
-	'1');
-INSERT INTO I_AVL
-	VALUES ("62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"12c9990b-0a17-4c24-afe2-57149364a257",
-	"ef559f9f-348e-42ce-8ce1-59153f0252e2",
-	'1',
-	'id = 1',
-	"82e57960-5133-41e4-b20d-c24d86129d4b");
-INSERT INTO I_LIP
-	VALUES ("8bf04325-90ec-490e-b5d4-41ba5d6584d6",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	'R8');
-INSERT INTO I_LIP
-	VALUES ("c4cb0e4c-a28d-4694-aef7-c836e3dfc346",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	'R9');
-INSERT INTO I_LNK
-	VALUES ("8029e7d5-3a4c-426b-889b-0786094528c4",
-	"c4cb0e4c-a28d-4694-aef7-c836e3dfc346",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LNK
-	VALUES ("c2f4c94f-c056-45d0-b532-c144f152aea0",
-	"c4cb0e4c-a28d-4694-aef7-c836e3dfc346",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LNK
-	VALUES ("1a64f2da-0785-4690-a08d-fc59bf7264ee",
-	"c4cb0e4c-a28d-4694-aef7-c836e3dfc346",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("4b8d4ab9-8399-47f8-a3d5-4a95d2c24190",
-	"62134865-cc65-40a0-89ac-8e5f14917bfc",
-	'R15');
 INSERT INTO PE_PE
 	VALUES ("0ae8b3a7-f45e-4196-9098-214631dee5c2",
 	1,
@@ -11339,198 +10786,6 @@ INSERT INTO I_LIP
 INSERT INTO I_LIP
 	VALUES ("9ccf9d4a-9d9b-41e6-8fb2-522bd35ce606",
 	"13cf43e2-3e0a-4593-873a-fa4c9446fbea",
-	'R18');
-INSERT INTO CSME_CIE
-	VALUES ("24873634-2ec0-43f6-968a-a7829fe642ea",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"e668cc68-f060-4c9a-a59a-1275ce4ef7cc",
-	'RoomType');
-INSERT INTO I_INS
-	VALUES ("8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"24873634-2ec0-43f6-968a-a7829fe642ea",
-	'3:RoomType',
-	'3');
-INSERT INTO I_AVL
-	VALUES ("8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"2aff1611-ed5a-4dd3-b6a7-9af29faed5ea",
-	'Single',
-	'name = Single',
-	"297c5f26-b7f3-4173-83b0-8b350ea9ff2c");
-INSERT INTO I_AVL
-	VALUES ("8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"bc78451f-df96-4b03-9f41-7ffa3e5010ed",
-	'1',
-	'nBeds = 1',
-	"c80eb3c6-8f45-4171-b186-6a4b92dd2114");
-INSERT INTO I_AVL
-	VALUES ("8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"b81d4f4e-c8e5-4daf-b353-ea7378b611b1",
-	'0',
-	'id = 0',
-	"c1d67648-e5cd-4362-80b4-a3a0bd606722");
-INSERT INTO I_AVL
-	VALUES ("8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"03af3d51-3b84-46a2-922c-f66163fb2688",
-	'1000',
-	'price = 1000',
-	"bd592d51-e079-46e5-82a0-2745a57f3124");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	'R1');
-INSERT INTO I_LIP
-	VALUES ("f686fead-4432-4f4f-ad1a-d28c0e670ca3",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	'R2');
-INSERT INTO I_LIP
-	VALUES ("65270464-a6fb-4376-b128-46c6501b538e",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	'R3');
-INSERT INTO I_LIP
-	VALUES ("c4cb0e4c-a28d-4694-aef7-c836e3dfc346",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	'R9');
-INSERT INTO I_LIP
-	VALUES ("304bc22d-6803-422e-97bc-ce3129ba4546",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	'R16');
-INSERT INTO I_LIP
-	VALUES ("9ccf9d4a-9d9b-41e6-8fb2-522bd35ce606",
-	"8b7fe9f2-4593-49b5-bd9c-d832f20f7932",
-	'R18');
-INSERT INTO I_INS
-	VALUES ("a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"24873634-2ec0-43f6-968a-a7829fe642ea",
-	'4:RoomType',
-	'4');
-INSERT INTO I_AVL
-	VALUES ("a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"2aff1611-ed5a-4dd3-b6a7-9af29faed5ea",
-	'Double',
-	'name = Double',
-	"05b800e6-5520-4980-ab51-e42b084c44fd");
-INSERT INTO I_AVL
-	VALUES ("a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"bc78451f-df96-4b03-9f41-7ffa3e5010ed",
-	'2',
-	'nBeds = 2',
-	"f49057da-1d9c-44ad-aad3-38a87cfddc36");
-INSERT INTO I_AVL
-	VALUES ("a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"b81d4f4e-c8e5-4daf-b353-ea7378b611b1",
-	'1',
-	'id = 1',
-	"fcc745f7-e986-4905-81bf-598295bf126e");
-INSERT INTO I_AVL
-	VALUES ("a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"03af3d51-3b84-46a2-922c-f66163fb2688",
-	'2000',
-	'price = 2000',
-	"0302933a-e72b-4657-94af-70a4608b6002");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	'R1');
-INSERT INTO I_LIP
-	VALUES ("f686fead-4432-4f4f-ad1a-d28c0e670ca3",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	'R2');
-INSERT INTO I_LIP
-	VALUES ("65270464-a6fb-4376-b128-46c6501b538e",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	'R3');
-INSERT INTO I_LIP
-	VALUES ("c4cb0e4c-a28d-4694-aef7-c836e3dfc346",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	'R9');
-INSERT INTO I_LIP
-	VALUES ("304bc22d-6803-422e-97bc-ce3129ba4546",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	'R16');
-INSERT INTO I_LIP
-	VALUES ("9ccf9d4a-9d9b-41e6-8fb2-522bd35ce606",
-	"a9aa1d4e-0fa3-422c-afb5-de2ba334f99a",
-	'R18');
-INSERT INTO I_INS
-	VALUES ("1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a2f65929-0887-4dd1-a5b6-53a49a14f4d6",
-	"00000000-0000-0000-0000-000000000000",
-	"24873634-2ec0-43f6-968a-a7829fe642ea",
-	'5:RoomType',
-	'5');
-INSERT INTO I_AVL
-	VALUES ("1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"2aff1611-ed5a-4dd3-b6a7-9af29faed5ea",
-	'Suite',
-	'name = Suite',
-	"5691bbf3-0cb0-435d-ba5a-4a8446ee3395");
-INSERT INTO I_AVL
-	VALUES ("1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"bc78451f-df96-4b03-9f41-7ffa3e5010ed",
-	'2',
-	'nBeds = 2',
-	"9b1526c9-7b21-4e7e-b39f-76d9a5da2dfc");
-INSERT INTO I_AVL
-	VALUES ("1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"b81d4f4e-c8e5-4daf-b353-ea7378b611b1",
-	'2',
-	'id = 2',
-	"cdedf48d-69f0-473d-acfb-8c34ac1fd4f5");
-INSERT INTO I_AVL
-	VALUES ("1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	"0ae8b3a7-f45e-4196-9098-214631dee5c2",
-	"03af3d51-3b84-46a2-922c-f66163fb2688",
-	'3000',
-	'price = 3000',
-	"c804a292-d7c0-48f8-a92d-d51e726c8662");
-INSERT INTO I_LIP
-	VALUES ("454f219b-e5fd-4527-945a-84764b261aca",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	'R1');
-INSERT INTO I_LIP
-	VALUES ("f686fead-4432-4f4f-ad1a-d28c0e670ca3",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	'R2');
-INSERT INTO I_LIP
-	VALUES ("65270464-a6fb-4376-b128-46c6501b538e",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	'R3');
-INSERT INTO I_LIP
-	VALUES ("c4cb0e4c-a28d-4694-aef7-c836e3dfc346",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	'R9');
-INSERT INTO I_LIP
-	VALUES ("304bc22d-6803-422e-97bc-ce3129ba4546",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
-	'R16');
-INSERT INTO I_LIP
-	VALUES ("9ccf9d4a-9d9b-41e6-8fb2-522bd35ce606",
-	"1783603e-6fbe-4d8d-8d2c-149fe26580f0",
 	'R18');
 INSERT INTO PE_PE
 	VALUES ("1f2bfc98-7661-409b-b4de-6523c7ab2e48",
@@ -13336,12 +12591,6 @@ INSERT INTO CSME_CIE
 	"87435f2f-bc8c-4d05-9ef3-e6a192197c88",
 	"6f833092-ec8c-4d02-ab51-0871f3051bb9",
 	'AddRoomTest');
-INSERT INTO CSME_CIE
-	VALUES ("e5ce1f6e-a57a-4d36-b442-571d95717ae3",
-	"4c70ee38-6c6e-499f-b02b-06f9abf5a5ec",
-	"87435f2f-bc8c-4d05-9ef3-e6a192197c88",
-	"6f833092-ec8c-4d02-ab51-0871f3051bb9",
-	'AddRoomTest');
 INSERT INTO PE_PE
 	VALUES ("a167fe88-3270-4209-8068-3fd095f105d6",
 	1,
@@ -14653,36 +13902,6 @@ INSERT INTO DIM_DIA
 	4000.000000,
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
-INSERT INTO CSME_CIE
-	VALUES ("32f65472-d12c-4f95-a803-0cfbc1dbdefb",
-	"4c70ee38-6c6e-499f-b02b-06f9abf5a5ec",
-	"a167fe88-3270-4209-8068-3fd095f105d6",
-	"6f833092-ec8c-4d02-ab51-0871f3051bb9",
-	'AddCustomerTest');
-INSERT INTO I_INS
-	VALUES ("ad030148-59f4-47d5-8e69-69b303a90e9b",
-	'',
-	"5a27304b-738f-4203-84c7-7a3b46a6d147",
-	"1e863231-9d4f-40a4-979f-f19ef6b11e9f",
-	"4c70ee38-6c6e-499f-b02b-06f9abf5a5ec",
-	"7bff77df-9605-4f82-889d-5530561cea6d",
-	"32f65472-d12c-4f95-a803-0cfbc1dbdefb",
-	'1:AddCustomerTest',
-	'1');
-INSERT INTO I_AVL
-	VALUES ("ad030148-59f4-47d5-8e69-69b303a90e9b",
-	"a167fe88-3270-4209-8068-3fd095f105d6",
-	"dd67e6b7-087a-4c45-a5d7-441e8ddf825f",
-	'2',
-	'id = 2',
-	"3f12323f-1834-4629-967e-1387cdea72e6");
-INSERT INTO I_AVL
-	VALUES ("ad030148-59f4-47d5-8e69-69b303a90e9b",
-	"a167fe88-3270-4209-8068-3fd095f105d6",
-	"5ac76f3c-bdce-43c2-bd51-187a281152f3",
-	'-1',
-	'customerCount = -1',
-	"5dd4db3f-dcc9-4097-b054-42e6e32eec2a");
 INSERT INTO PE_PE
 	VALUES ("7c02cbe1-7309-4f99-868c-8c59785be19c",
 	1,
@@ -14734,8 +13953,8 @@ INSERT INTO S_SYNC
 	'RunTests',
 	'',
 	'// Execute test case
-//create object instance roomTest of AddRoomTest;
-//generate AddRoomTest1:''run''(id:1) to roomTest;
+create object instance roomTest of AddRoomTest;
+generate AddRoomTest1:''run''(id:1) to roomTest;
 
 create object instance customerTest of AddCustomerTest;
 generate AddCustomerTest1:''run''(id:2) to customerTest;
@@ -14774,6 +13993,22 @@ INSERT INTO S_SYNC
 	'// Initialize with random data
 HotelPort::initializeData(id:1);
 ',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'');
+INSERT INTO PE_PE
+	VALUES ("d8b9d202-736d-49d5-9a04-483d7c627524",
+	1,
+	"7c02cbe1-7309-4f99-868c-8c59785be19c",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO S_SYNC
+	VALUES ("d8b9d202-736d-49d5-9a04-483d7c627524",
+	"00000000-0000-0000-0000-000000000000",
+	'RunAddCustomerTest',
+	'',
+	'create object instance customerTest of AddCustomerTest;
+generate AddCustomerTest1:''run''(id:2) to customerTest;',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
 	'');

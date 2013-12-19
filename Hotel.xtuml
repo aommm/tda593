@@ -1200,8 +1200,6 @@ INSERT INTO C_PP
 	0,
 	'',
 	"c5857e62-91e0-4a34-be33-68ab365b3c42");
-<<<<<<< HEAD
-=======
 INSERT INTO C_EP
 	VALUES ("ce76eefc-b1b7-4224-a5d5-d2c0c7f079e5",
 	"64545246-ab8f-42c1-b487-17ff56321157",
@@ -1253,7 +1251,6 @@ INSERT INTO C_PP
 	0,
 	'',
 	"a3bd0280-560a-40f6-8e2f-89910a0fc6ea");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("916fada2-3b2b-4932-9c03-c44013468084",
 	1,
@@ -6435,13 +6432,8 @@ INSERT INTO O_ID
 	VALUES (2,
 	"873daead-8402-42e5-b1ad-275eea326341");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("cf4f6532-8ea7-4e19-8d44-f908bb967cdf",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("2c4ed78e-b582-4b2b-9bd9-28b5aebfb04a",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"873daead-8402-42e5-b1ad-275eea326341",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'Bank');
@@ -6607,30 +6599,12 @@ INSERT INTO O_ID
 	VALUES (2,
 	"3c376d30-b567-407c-88ce-3fa6fff74d11");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("08efc22d-896a-48f1-95d4-9089aa55ab0a",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("41b013d8-4f7c-4b9a-898b-1a5f76f76b58",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"3c376d30-b567-407c-88ce-3fa6fff74d11",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'Bill');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"00000000-0000-0000-0000-000000000000",
-	"08efc22d-896a-48f1-95d4-9089aa55ab0a",
-	'10:Bill',
-	'10');
-INSERT INTO I_AVL
-	VALUES ("0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-=======
 	VALUES ("857248ab-b0b9-4c0e-aca8-1aa8c4797746",
 	'',
 	"00000000-0000-0000-0000-000000000000",
@@ -6642,50 +6616,17 @@ INSERT INTO I_AVL
 	'11');
 INSERT INTO I_AVL
 	VALUES ("857248ab-b0b9-4c0e-aca8-1aa8c4797746",
->>>>>>> Added test which tries to violates our business rules
 	"3c376d30-b567-407c-88ce-3fa6fff74d11",
 	"523c239b-ab3b-44e2-b5c4-8e1f26a4b609",
 	'true',
 	'paid = true',
-<<<<<<< HEAD
-	"416ef5de-6cc9-4aee-b783-d2d9be091768");
-INSERT INTO I_AVL
-	VALUES ("0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-=======
 	"dfb907ef-9efa-475d-b052-490685a91d1a");
 INSERT INTO I_AVL
 	VALUES ("857248ab-b0b9-4c0e-aca8-1aa8c4797746",
->>>>>>> Added test which tries to violates our business rules
 	"3c376d30-b567-407c-88ce-3fa6fff74d11",
 	"3b836e20-c34a-4b90-ad6b-906aeb1349ed",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"566b6d31-6176-4df9-ae4d-eafdda5b297b");
-INSERT INTO I_LIP
-	VALUES ("63aa6067-8040-4aee-8d69-95b6294f87bb",
-	"0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-	'R17');
-INSERT INTO I_LNK
-	VALUES ("a597fdfa-a532-4552-b222-568e1d971060",
-	"63aa6067-8040-4aee-8d69-95b6294f87bb",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	"0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("6410a554-e4ae-4722-adf2-22e742c764e1",
-	"0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-	'R19');
-INSERT INTO I_LNK
-	VALUES ("ff89c998-1232-4b19-ba44-98b676c5c6d0",
-	"6410a554-e4ae-4722-adf2-22e742c764e1",
-	"a2b3a45b-626b-4e58-b7db-d67e6d2d2917",
-	"0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("85c117c1-37f6-4d0d-ad33-d82a0fc4cd13",
-	"0ccf4ae3-240d-48c4-ab19-cf11af7452ee",
-=======
 	"725ca3dd-64bf-459d-b3fe-6a502d8e028f");
 INSERT INTO I_LIP
 	VALUES ("63aa6067-8040-4aee-8d69-95b6294f87bb",
@@ -6710,7 +6651,6 @@ INSERT INTO I_LNK
 INSERT INTO I_LIP
 	VALUES ("85c117c1-37f6-4d0d-ad33-d82a0fc4cd13",
 	"857248ab-b0b9-4c0e-aca8-1aa8c4797746",
->>>>>>> Added test which tries to violates our business rules
 	'R21');
 INSERT INTO PE_PE
 	VALUES ("c03d27a5-14cc-4476-937f-8e494f56b30a",
@@ -7182,26 +7122,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("c597cf61-7d23-47ce-bb54-97d516a589f4",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("66277b81-3e5d-42f7-a8ae-db6dd8cf2d76",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"c03d27a5-14cc-4476-937f-8e494f56b30a",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'BillController');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("a2b3a45b-626b-4e58-b7db-d67e6d2d2917",
-	'',
-	"fd497ff8-a4b0-4bd3-9ffa-bd9c789b1f42",
-	"b3cb8512-2339-4a0c-b058-737cdf441ce8",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"24735182-aff9-4175-a435-fd65dae7e7df",
-	"c597cf61-7d23-47ce-bb54-97d516a589f4",
-=======
 	VALUES ("003d8f39-4b1d-44fd-9719-c896ee238312",
 	'',
 	"fd497ff8-a4b0-4bd3-9ffa-bd9c789b1f42",
@@ -7209,24 +7135,10 @@ INSERT INTO I_INS
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
 	"24735182-aff9-4175-a435-fd65dae7e7df",
 	"66277b81-3e5d-42f7-a8ae-db6dd8cf2d76",
->>>>>>> Added test which tries to violates our business rules
 	'4:BillController',
 	'4');
 INSERT INTO I_LIP
 	VALUES ("6410a554-e4ae-4722-adf2-22e742c764e1",
-<<<<<<< HEAD
-	"a2b3a45b-626b-4e58-b7db-d67e6d2d2917",
-	'R19');
-INSERT INTO I_LIP
-	VALUES ("84c9ec35-e6f4-438e-873c-eb4f4d448190",
-	"a2b3a45b-626b-4e58-b7db-d67e6d2d2917",
-	'R22');
-INSERT INTO I_LNK
-	VALUES ("61826f27-0958-406e-b482-83875b3d2df8",
-	"84c9ec35-e6f4-438e-873c-eb4f4d448190",
-	"6d26a75c-702d-4d83-b399-2ea188527dbd",
-	"a2b3a45b-626b-4e58-b7db-d67e6d2d2917",
-=======
 	"003d8f39-4b1d-44fd-9719-c896ee238312",
 	'R19');
 INSERT INTO I_LIP
@@ -7238,7 +7150,6 @@ INSERT INTO I_LNK
 	"84c9ec35-e6f4-438e-873c-eb4f4d448190",
 	"c75440ff-ae49-4c5a-98d7-c8303ea477b9",
 	"003d8f39-4b1d-44fd-9719-c896ee238312",
->>>>>>> Added test which tries to violates our business rules
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO PE_PE
 	VALUES ("f80327a4-95dc-497b-84b6-cb2287511cc5",
@@ -7299,13 +7210,8 @@ INSERT INTO O_ID
 	VALUES (2,
 	"f80327a4-95dc-497b-84b6-cb2287511cc5");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("dcbd3057-cc30-41be-93cc-3cf0947e7150",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("f3f22023-8729-4624-afb6-f3c23d115b15",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"f80327a4-95dc-497b-84b6-cb2287511cc5",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'BillItem');
@@ -7332,13 +7238,8 @@ INSERT INTO O_ID
 	VALUES (2,
 	"4f1c140a-b145-40b8-a5b0-5dd5ab3b3a66");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("137c79d1-2a88-4951-8dda-6c279c8d956a",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("3d2a2de1-491e-43f4-92a1-67c07be575a2",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"4f1c140a-b145-40b8-a5b0-5dd5ab3b3a66",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'ConferenceRoom');
@@ -7490,51 +7391,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("44cbca98-5152-4229-a1ad-5ef68d7e5cbd",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("96e29978-ff90-4b06-8211-71549bcc1549",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'Customer');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("521dd06d-a201-4ba1-9048-09ec09088c77",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"00000000-0000-0000-0000-000000000000",
-	"44cbca98-5152-4229-a1ad-5ef68d7e5cbd",
-	'5:Customer',
-	'5');
-INSERT INTO I_AVL
-	VALUES ("521dd06d-a201-4ba1-9048-09ec09088c77",
-	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
-	"534dd1fe-002d-44e0-9f28-d156e236499f",
-	'Robin',
-	'name = Robin',
-	"0d907e18-3dc9-44a5-948c-47af686ccf0f");
-INSERT INTO I_AVL
-	VALUES ("521dd06d-a201-4ba1-9048-09ec09088c77",
-	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
-	"e01eb983-0cc9-4d71-8025-529e9b51bade",
-	'123',
-	'card = 123',
-	"d86f7fd9-d64f-4a8e-b1d7-7748c3390d55");
-INSERT INTO I_AVL
-	VALUES ("521dd06d-a201-4ba1-9048-09ec09088c77",
-	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
-	"dce42faf-2634-4e94-aed9-5fc5a2d87e6e",
-	'None',
-	'membership = None',
-	"3bfe7511-92b1-4b02-9211-dc329f70a0d4");
-INSERT INTO I_AVL
-	VALUES ("521dd06d-a201-4ba1-9048-09ec09088c77",
-=======
 	VALUES ("627fb6b0-e527-4b47-9d5c-0a9b5e2042c4",
 	'',
 	"00000000-0000-0000-0000-000000000000",
@@ -7567,40 +7429,10 @@ INSERT INTO I_AVL
 	"ce3cbe60-78cf-46ee-93c3-31e1049ec5ce");
 INSERT INTO I_AVL
 	VALUES ("627fb6b0-e527-4b47-9d5c-0a9b5e2042c4",
->>>>>>> Added test which tries to violates our business rules
 	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
 	"3c393109-5598-4197-9d56-4d1331178106",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"f0b5538f-12f9-46ac-96ae-f0efd6224cc2");
-INSERT INTO I_LIP
-	VALUES ("89ee350a-bb22-4cc5-918d-4e2cbf2e6a38",
-	"521dd06d-a201-4ba1-9048-09ec09088c77",
-	'R10');
-INSERT INTO I_LIP
-	VALUES ("34e26037-1f85-42db-af4c-987b65da5275",
-	"521dd06d-a201-4ba1-9048-09ec09088c77",
-	'R12');
-INSERT INTO I_LNK
-	VALUES ("aa36c425-6968-4a05-8aef-e6a34ec078a4",
-	"34e26037-1f85-42db-af4c-987b65da5275",
-	"521dd06d-a201-4ba1-9048-09ec09088c77",
-	"12ea9120-ff11-4733-a2db-82eb612eefed",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_INS
-	VALUES ("a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"00000000-0000-0000-0000-000000000000",
-	"44cbca98-5152-4229-a1ad-5ef68d7e5cbd",
-	'8:Customer',
-	'8');
-INSERT INTO I_AVL
-	VALUES ("a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-=======
 	"97112099-8821-495a-ae4b-d1af15737b11");
 INSERT INTO I_LIP
 	VALUES ("89ee350a-bb22-4cc5-918d-4e2cbf2e6a38",
@@ -7628,72 +7460,31 @@ INSERT INTO I_INS
 	'9');
 INSERT INTO I_AVL
 	VALUES ("3196fb77-cbe3-4774-b1ca-65b2a24c43c9",
->>>>>>> Added test which tries to violates our business rules
 	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
 	"534dd1fe-002d-44e0-9f28-d156e236499f",
 	'Ninja',
 	'name = Ninja',
-<<<<<<< HEAD
-	"ce5778c3-a368-426e-af1f-46f1c75f889c");
-INSERT INTO I_AVL
-	VALUES ("a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-=======
 	"8fd39fc1-0040-4379-9d5f-2091b00c2903");
 INSERT INTO I_AVL
 	VALUES ("3196fb77-cbe3-4774-b1ca-65b2a24c43c9",
->>>>>>> Added test which tries to violates our business rules
 	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
 	"e01eb983-0cc9-4d71-8025-529e9b51bade",
 	'4321',
 	'card = 4321',
-<<<<<<< HEAD
-	"aa818a44-a76d-4a43-9e65-f2c8b9210723");
-INSERT INTO I_AVL
-	VALUES ("a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-=======
 	"4888cd02-ddb3-49dd-beb5-c5c9390e8cfa");
 INSERT INTO I_AVL
 	VALUES ("3196fb77-cbe3-4774-b1ca-65b2a24c43c9",
->>>>>>> Added test which tries to violates our business rules
 	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
 	"dce42faf-2634-4e94-aed9-5fc5a2d87e6e",
 	'Gold',
 	'membership = Gold',
-<<<<<<< HEAD
-	"d556ddc5-e053-46d5-a079-0a4285f73d72");
-INSERT INTO I_AVL
-	VALUES ("a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-=======
 	"b2f2aec5-f722-49e9-a6d9-51457fa38411");
 INSERT INTO I_AVL
 	VALUES ("3196fb77-cbe3-4774-b1ca-65b2a24c43c9",
->>>>>>> Added test which tries to violates our business rules
 	"e8af0a2b-2d2b-429f-8184-567e4fc64d78",
 	"3c393109-5598-4197-9d56-4d1331178106",
 	'1',
 	'id = 1',
-<<<<<<< HEAD
-	"9ed2d03c-11fd-409b-b3de-cce77e2cb153");
-INSERT INTO I_LIP
-	VALUES ("89ee350a-bb22-4cc5-918d-4e2cbf2e6a38",
-	"a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-	'R10');
-INSERT INTO I_LNK
-	VALUES ("bb24ee5f-6ae4-4a22-b8a1-9fe7337ee4b9",
-	"89ee350a-bb22-4cc5-918d-4e2cbf2e6a38",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	"a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("34e26037-1f85-42db-af4c-987b65da5275",
-	"a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-	'R12');
-INSERT INTO I_LNK
-	VALUES ("58266a12-84a9-4b41-b40b-fd6de06ac7a1",
-	"34e26037-1f85-42db-af4c-987b65da5275",
-	"a36a8e9d-1d9f-47ca-8929-f47330e3cc40",
-	"12ea9120-ff11-4733-a2db-82eb612eefed",
-=======
 	"b57da3c8-1b9b-4010-bc1e-a31d0f1e31f9");
 INSERT INTO I_LIP
 	VALUES ("89ee350a-bb22-4cc5-918d-4e2cbf2e6a38",
@@ -7766,7 +7557,6 @@ INSERT INTO I_LNK
 	"34e26037-1f85-42db-af4c-987b65da5275",
 	"1c798192-5b09-4ed1-a543-562b06f84ffd",
 	"ab6dad65-929e-4cc7-ae93-e4e1f71859e4",
->>>>>>> Added test which tries to violates our business rules
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO PE_PE
 	VALUES ("8c6df677-e58e-4339-91a4-8cd193907aed",
@@ -8203,26 +7993,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("53380805-447e-4ed8-a119-8fc7f675d770",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("3f211f60-f82c-467a-aa57-6cc0b4c44420",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"8c6df677-e58e-4339-91a4-8cd193907aed",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'CustomerController');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("12ea9120-ff11-4733-a2db-82eb612eefed",
-	'',
-	"f1aeb41a-77db-4858-b73a-546c8ab312d3",
-	"0e9a5a68-c708-4b46-9335-b96b5c4b78ef",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"c7398c38-6359-4732-80b6-d7eef82e3ae2",
-	"53380805-447e-4ed8-a119-8fc7f675d770",
-=======
 	VALUES ("ab6dad65-929e-4cc7-ae93-e4e1f71859e4",
 	'',
 	"f1aeb41a-77db-4858-b73a-546c8ab312d3",
@@ -8230,16 +8006,11 @@ INSERT INTO I_INS
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
 	"c7398c38-6359-4732-80b6-d7eef82e3ae2",
 	"3f211f60-f82c-467a-aa57-6cc0b4c44420",
->>>>>>> Added test which tries to violates our business rules
 	'1:CustomerController',
 	'1');
 INSERT INTO I_LIP
 	VALUES ("34e26037-1f85-42db-af4c-987b65da5275",
-<<<<<<< HEAD
-	"12ea9120-ff11-4733-a2db-82eb612eefed",
-=======
 	"ab6dad65-929e-4cc7-ae93-e4e1f71859e4",
->>>>>>> Added test which tries to violates our business rules
 	'R12');
 INSERT INTO PE_PE
 	VALUES ("53918c3e-e988-4348-968f-236d8b252374",
@@ -8264,13 +8035,8 @@ INSERT INTO O_ID
 	VALUES (2,
 	"53918c3e-e988-4348-968f-236d8b252374");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("95e4e652-7f2e-49cd-a8fd-1f1400ddc6ae",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("a6789db6-1a87-4bbd-9bb1-9d57d88d177d",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"53918c3e-e988-4348-968f-236d8b252374",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'Dormitory');
@@ -8297,13 +8063,8 @@ INSERT INTO O_ID
 	VALUES (2,
 	"ea4ab60f-e707-4aba-9cb8-6c010b37a950");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("b989e078-e35a-49fc-b31c-5d8d5967a72c",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("2eec8b82-7a19-4f90-beac-a15c4682ae25",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"ea4ab60f-e707-4aba-9cb8-6c010b37a950",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'Guest');
@@ -8330,13 +8091,8 @@ INSERT INTO O_ID
 	VALUES (2,
 	"869c65f2-be5d-447a-9694-d7e5a9d48013");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("dfc1ae8b-a2a8-4ff8-9a06-24c26985c4a7",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("16cbdaf6-fc08-414b-bb98-89cf76adcec7",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"869c65f2-be5d-447a-9694-d7e5a9d48013",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'PrivateRoom');
@@ -8476,30 +8232,12 @@ INSERT INTO O_ID
 	VALUES (2,
 	"8f94d2de-4160-4153-bd91-3276e3e631be");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("20d07300-e4a7-4b74-9834-098e83eb6d5e",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("567f226a-30d9-4d9d-8b92-ceeadfb6021a",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"8f94d2de-4160-4153-bd91-3276e3e631be",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'Reservation');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("588c34c4-f260-470d-8cfb-24ed775f2599",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"00000000-0000-0000-0000-000000000000",
-	"20d07300-e4a7-4b74-9834-098e83eb6d5e",
-	'9:Reservation',
-	'9');
-INSERT INTO I_AVL
-	VALUES ("588c34c4-f260-470d-8cfb-24ed775f2599",
-=======
 	VALUES ("ad3a82a2-79bf-4eb2-bc6b-1019756c7fce",
 	'',
 	"00000000-0000-0000-0000-000000000000",
@@ -8511,117 +8249,38 @@ INSERT INTO I_AVL
 	'10');
 INSERT INTO I_AVL
 	VALUES ("ad3a82a2-79bf-4eb2-bc6b-1019756c7fce",
->>>>>>> Added test which tries to violates our business rules
 	"8f94d2de-4160-4153-bd91-3276e3e631be",
 	"7c91026f-a735-42b1-8938-b8177cdd7ea9",
 	'140101',
 	'startDate = 140101',
-<<<<<<< HEAD
-	"631ebc5a-a753-4ea6-9d07-9be942ce1f6c");
-INSERT INTO I_AVL
-	VALUES ("588c34c4-f260-470d-8cfb-24ed775f2599",
-=======
 	"a35955ab-be60-4636-afcd-de47b6860fb9");
 INSERT INTO I_AVL
 	VALUES ("ad3a82a2-79bf-4eb2-bc6b-1019756c7fce",
->>>>>>> Added test which tries to violates our business rules
 	"8f94d2de-4160-4153-bd91-3276e3e631be",
 	"f493098a-d24d-495d-9f15-d2f194cc6c2f",
 	'140105',
 	'endDate = 140105',
-<<<<<<< HEAD
-	"a3435a62-79de-4abe-892b-6059bc9095b3");
-INSERT INTO I_AVL
-	VALUES ("588c34c4-f260-470d-8cfb-24ed775f2599",
-=======
 	"6b73381a-5292-49fe-b2fa-f52f6c8cd7c9");
 INSERT INTO I_AVL
 	VALUES ("ad3a82a2-79bf-4eb2-bc6b-1019756c7fce",
->>>>>>> Added test which tries to violates our business rules
 	"8f94d2de-4160-4153-bd91-3276e3e631be",
 	"f051320a-87d0-4e4b-82d3-ec15df510bfc",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"f1551235-3e71-402f-b8aa-94c96d5cf858");
-INSERT INTO I_AVL
-	VALUES ("588c34c4-f260-470d-8cfb-24ed775f2599",
-=======
 	"827811e2-c021-48b9-84ea-3fb7e26dce27");
 INSERT INTO I_AVL
 	VALUES ("ad3a82a2-79bf-4eb2-bc6b-1019756c7fce",
->>>>>>> Added test which tries to violates our business rules
 	"8f94d2de-4160-4153-bd91-3276e3e631be",
 	"02a4ccd1-06aa-45a1-a099-60a037e040a4",
 	'Nothing',
 	'requests = Nothing',
-<<<<<<< HEAD
-	"be11054e-e709-40d8-9e5c-29ec046debbf");
-INSERT INTO I_AVL
-	VALUES ("588c34c4-f260-470d-8cfb-24ed775f2599",
-=======
 	"41c504a7-2f74-47aa-95af-051143483420");
 INSERT INTO I_AVL
 	VALUES ("ad3a82a2-79bf-4eb2-bc6b-1019756c7fce",
->>>>>>> Added test which tries to violates our business rules
 	"8f94d2de-4160-4153-bd91-3276e3e631be",
 	"19d285fa-f38c-4475-abb0-39e7fa4dbf6b",
 	'false',
 	'checkedIn = false',
-<<<<<<< HEAD
-	"79be8f50-b342-4fc0-837c-ba7d130934ec");
-INSERT INTO I_LIP
-	VALUES ("592f97e0-7ccd-4fca-ab9c-bf20d3b4e425",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	'R2');
-INSERT INTO I_LNK
-	VALUES ("ae6dab6b-861e-4381-a9d5-2189d037871e",
-	"592f97e0-7ccd-4fca-ab9c-bf20d3b4e425",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("17685063-2086-4fde-9a28-69787f34839f",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	'R3');
-INSERT INTO I_LNK
-	VALUES ("d734ece8-5278-46d9-a675-3dbffef40e79",
-	"17685063-2086-4fde-9a28-69787f34839f",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("9318ce74-2524-408a-86c1-598af3f4b061",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	'R4');
-INSERT INTO I_LNK
-	VALUES ("5877a677-f722-4c1a-a560-8493ee4c51a4",
-	"9318ce74-2524-408a-86c1-598af3f4b061",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	"e1f5e0bc-e5d1-4648-880d-a280f1893470",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("89ee350a-bb22-4cc5-918d-4e2cbf2e6a38",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	'R10');
-INSERT INTO I_LIP
-	VALUES ("3664f00a-8459-480f-84f1-778fc0062e56",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	'R11');
-INSERT INTO I_LIP
-	VALUES ("c61bd3d2-5413-4312-8491-8e1728b19a0b",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	'R13');
-INSERT INTO I_LNK
-	VALUES ("fb508e2c-adda-429d-a210-6ba0e23824ee",
-	"c61bd3d2-5413-4312-8491-8e1728b19a0b",
-	"6d26a75c-702d-4d83-b399-2ea188527dbd",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("63aa6067-8040-4aee-8d69-95b6294f87bb",
-	"588c34c4-f260-470d-8cfb-24ed775f2599",
-=======
 	"d87ae5c4-6a3c-4601-b4ff-79b48db30615");
 INSERT INTO I_LIP
 	VALUES ("592f97e0-7ccd-4fca-ab9c-bf20d3b4e425",
@@ -8674,7 +8333,6 @@ INSERT INTO I_LNK
 INSERT INTO I_LIP
 	VALUES ("63aa6067-8040-4aee-8d69-95b6294f87bb",
 	"ad3a82a2-79bf-4eb2-bc6b-1019756c7fce",
->>>>>>> Added test which tries to violates our business rules
 	'R17');
 INSERT INTO PE_PE
 	VALUES ("5a52373a-66fa-49ad-8d99-14baa17bcb3e",
@@ -9471,26 +9129,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("af1f2045-978a-4d29-b032-a119226a04a5",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("c697b5a3-56d8-4cb2-a1e4-d289c1cd3e4a",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"5a52373a-66fa-49ad-8d99-14baa17bcb3e",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'ReservationController');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("6d26a75c-702d-4d83-b399-2ea188527dbd",
-	'',
-	"a3afe5df-2898-40ed-8233-71fcb117677b",
-	"89942ec9-5389-4737-b341-93f69f5e572a",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"429ae07c-fbb6-4a83-98b0-18989e115b2c",
-	"af1f2045-978a-4d29-b032-a119226a04a5",
-=======
 	VALUES ("c75440ff-ae49-4c5a-98d7-c8303ea477b9",
 	'',
 	"a3afe5df-2898-40ed-8233-71fcb117677b",
@@ -9498,32 +9142,10 @@ INSERT INTO I_INS
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
 	"429ae07c-fbb6-4a83-98b0-18989e115b2c",
 	"c697b5a3-56d8-4cb2-a1e4-d289c1cd3e4a",
->>>>>>> Added test which tries to violates our business rules
 	'3:ReservationController',
 	'3');
 INSERT INTO I_LIP
 	VALUES ("c61bd3d2-5413-4312-8491-8e1728b19a0b",
-<<<<<<< HEAD
-	"6d26a75c-702d-4d83-b399-2ea188527dbd",
-	'R13');
-INSERT INTO I_LIP
-	VALUES ("d8970856-e1cf-49e7-b631-09ced62596af",
-	"6d26a75c-702d-4d83-b399-2ea188527dbd",
-	'R15');
-INSERT INTO I_LNK
-	VALUES ("0ec0aab3-7968-497a-a497-bfb7029718e2",
-	"d8970856-e1cf-49e7-b631-09ced62596af",
-	"66cf112b-0f00-4869-91eb-e76b4ba3c72e",
-	"6d26a75c-702d-4d83-b399-2ea188527dbd",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("42eace1f-c4c3-4883-9f5e-beafde716e99",
-	"6d26a75c-702d-4d83-b399-2ea188527dbd",
-	'R16');
-INSERT INTO I_LIP
-	VALUES ("84c9ec35-e6f4-438e-873c-eb4f4d448190",
-	"6d26a75c-702d-4d83-b399-2ea188527dbd",
-=======
 	"c75440ff-ae49-4c5a-98d7-c8303ea477b9",
 	'R13');
 INSERT INTO I_LIP
@@ -9543,7 +9165,6 @@ INSERT INTO I_LIP
 INSERT INTO I_LIP
 	VALUES ("84c9ec35-e6f4-438e-873c-eb4f4d448190",
 	"c75440ff-ae49-4c5a-98d7-c8303ea477b9",
->>>>>>> Added test which tries to violates our business rules
 	'R22');
 INSERT INTO PE_PE
 	VALUES ("4980cb96-4ed4-4d4c-b60e-eaf8b751233b",
@@ -9622,30 +9243,12 @@ INSERT INTO O_ID
 	VALUES (2,
 	"4980cb96-4ed4-4d4c-b60e-eaf8b751233b");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("b8aa5714-625b-4aea-98a7-fda97a79e6b1",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("33f85ade-b6a4-4f3f-87be-74128ec070af",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"4980cb96-4ed4-4d4c-b60e-eaf8b751233b",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'Room');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("e1f5e0bc-e5d1-4648-880d-a280f1893470",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"00000000-0000-0000-0000-000000000000",
-	"b8aa5714-625b-4aea-98a7-fda97a79e6b1",
-	'7:Room',
-	'7');
-INSERT INTO I_AVL
-	VALUES ("e1f5e0bc-e5d1-4648-880d-a280f1893470",
-=======
 	VALUES ("37dcbec8-988f-4c6e-a077-8b73aec113e1",
 	'',
 	"00000000-0000-0000-0000-000000000000",
@@ -9657,63 +9260,24 @@ INSERT INTO I_AVL
 	'6');
 INSERT INTO I_AVL
 	VALUES ("37dcbec8-988f-4c6e-a077-8b73aec113e1",
->>>>>>> Added test which tries to violates our business rules
 	"4980cb96-4ed4-4d4c-b60e-eaf8b751233b",
 	"7370dde2-0886-4c07-a7e5-4bd0ad5e6b68",
 	'',
 	'accessories = ',
-<<<<<<< HEAD
-	"e462436f-c2fe-45b8-893f-0c3d5ead94dd");
-INSERT INTO I_AVL
-	VALUES ("e1f5e0bc-e5d1-4648-880d-a280f1893470",
-=======
 	"c596973b-992c-4591-8c9a-16c388f5bfcd");
 INSERT INTO I_AVL
 	VALUES ("37dcbec8-988f-4c6e-a077-8b73aec113e1",
->>>>>>> Added test which tries to violates our business rules
 	"4980cb96-4ed4-4d4c-b60e-eaf8b751233b",
 	"31955223-070f-4add-bf63-015ec1ec6163",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"4f3a685b-64b9-4c75-9118-399a81bd96be");
-INSERT INTO I_AVL
-	VALUES ("e1f5e0bc-e5d1-4648-880d-a280f1893470",
-=======
 	"1322d883-9187-4ccf-a892-9323608f4503");
 INSERT INTO I_AVL
 	VALUES ("37dcbec8-988f-4c6e-a077-8b73aec113e1",
->>>>>>> Added test which tries to violates our business rules
 	"4980cb96-4ed4-4d4c-b60e-eaf8b751233b",
 	"4b15a2ee-416e-406a-8586-71255a574e53",
 	'false',
 	'occupied = false',
-<<<<<<< HEAD
-	"1b2cbe2a-91ee-4511-9315-adf1d8e10476");
-INSERT INTO I_LIP
-	VALUES ("c05cb543-b344-47bd-86c8-93728a072fbb",
-	"e1f5e0bc-e5d1-4648-880d-a280f1893470",
-	'R1');
-INSERT INTO I_LNK
-	VALUES ("2b3f9937-af09-4dfe-8008-f734f1021a7c",
-	"c05cb543-b344-47bd-86c8-93728a072fbb",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	"e1f5e0bc-e5d1-4648-880d-a280f1893470",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("9318ce74-2524-408a-86c1-598af3f4b061",
-	"e1f5e0bc-e5d1-4648-880d-a280f1893470",
-	'R4');
-INSERT INTO I_LIP
-	VALUES ("dd44ae39-548f-4da9-a19f-ee32ee50753e",
-	"e1f5e0bc-e5d1-4648-880d-a280f1893470",
-	'R8');
-INSERT INTO I_LNK
-	VALUES ("579631e9-d93c-44b1-80b5-ae7943e037f6",
-	"dd44ae39-548f-4da9-a19f-ee32ee50753e",
-	"e1f5e0bc-e5d1-4648-880d-a280f1893470",
-	"66cf112b-0f00-4869-91eb-e76b4ba3c72e",
-=======
 	"aeaeb69e-7a54-42f2-ad29-6f21dcae5208");
 INSERT INTO I_LIP
 	VALUES ("c05cb543-b344-47bd-86c8-93728a072fbb",
@@ -9738,7 +9302,6 @@ INSERT INTO I_LNK
 	"dd44ae39-548f-4da9-a19f-ee32ee50753e",
 	"37dcbec8-988f-4c6e-a077-8b73aec113e1",
 	"92b97450-1bc7-4f4b-9f8a-d8810768caaa",
->>>>>>> Added test which tries to violates our business rules
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO PE_PE
 	VALUES ("544f336b-9c54-475b-92ba-004dc2b78004",
@@ -10061,8 +9624,6 @@ end if;
 	1,
 	'',
 	"af748692-6d05-4a88-9344-c5d6fbe232f0");
-<<<<<<< HEAD
-=======
 INSERT INTO O_TFR
 	VALUES ("892d940e-d56f-4ca8-8808-0814a613e078",
 	"544f336b-9c54-475b-92ba-004dc2b78004",
@@ -10088,7 +9649,6 @@ end if;',
 	1,
 	'',
 	"8d2b50a6-4a4c-47e3-8575-bc6dd940db02");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO O_NBATTR
 	VALUES ("8f1a05a6-f540-4597-9100-e5c28e028599",
 	"544f336b-9c54-475b-92ba-004dc2b78004");
@@ -10467,26 +10027,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("8fc8a9e6-df26-45e3-bd6f-2ff2c0631c8a",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("6ce2fe20-3cf5-4b58-a544-89cf948e19a0",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"544f336b-9c54-475b-92ba-004dc2b78004",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'RoomController');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("66cf112b-0f00-4869-91eb-e76b4ba3c72e",
-	'',
-	"c3791aff-c541-4f24-8e2d-ac9242613c5b",
-	"3cfee809-be18-4b3b-b75f-298e2baff68b",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"2742cd8e-d5d5-4995-b6d0-b6a7084e4872",
-	"8fc8a9e6-df26-45e3-bd6f-2ff2c0631c8a",
-=======
 	VALUES ("92b97450-1bc7-4f4b-9f8a-d8810768caaa",
 	'',
 	"c3791aff-c541-4f24-8e2d-ac9242613c5b",
@@ -10494,28 +10040,10 @@ INSERT INTO I_INS
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
 	"2742cd8e-d5d5-4995-b6d0-b6a7084e4872",
 	"6ce2fe20-3cf5-4b58-a544-89cf948e19a0",
->>>>>>> Added test which tries to violates our business rules
 	'2:RoomController',
 	'2');
 INSERT INTO I_LIP
 	VALUES ("dd44ae39-548f-4da9-a19f-ee32ee50753e",
-<<<<<<< HEAD
-	"66cf112b-0f00-4869-91eb-e76b4ba3c72e",
-	'R8');
-INSERT INTO I_LIP
-	VALUES ("abf6a0d5-86e2-4cbd-afba-a556a399da05",
-	"66cf112b-0f00-4869-91eb-e76b4ba3c72e",
-	'R9');
-INSERT INTO I_LNK
-	VALUES ("dba54ccc-dea4-4dd5-bb23-51d0fded0487",
-	"abf6a0d5-86e2-4cbd-afba-a556a399da05",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	"66cf112b-0f00-4869-91eb-e76b4ba3c72e",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO I_LIP
-	VALUES ("d8970856-e1cf-49e7-b631-09ced62596af",
-	"66cf112b-0f00-4869-91eb-e76b4ba3c72e",
-=======
 	"92b97450-1bc7-4f4b-9f8a-d8810768caaa",
 	'R8');
 INSERT INTO I_LIP
@@ -10531,7 +10059,6 @@ INSERT INTO I_LNK
 INSERT INTO I_LIP
 	VALUES ("d8970856-e1cf-49e7-b631-09ced62596af",
 	"92b97450-1bc7-4f4b-9f8a-d8810768caaa",
->>>>>>> Added test which tries to violates our business rules
 	'R15');
 INSERT INTO PE_PE
 	VALUES ("b1adf073-7b71-440e-935f-826f5e749700",
@@ -10628,30 +10155,12 @@ INSERT INTO O_ID
 	VALUES (2,
 	"b1adf073-7b71-440e-935f-826f5e749700");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("058434ec-b6d9-4146-b440-a3dd37712303",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-=======
 	VALUES ("70c8b74f-ca1d-4740-9d97-3814a78d9a64",
 	"334fd389-14c2-4fb9-aa40-cd1a92d074be",
->>>>>>> Added test which tries to violates our business rules
 	"b1adf073-7b71-440e-935f-826f5e749700",
 	"34e25589-530c-4860-a501-49abe165fe13",
 	'RoomType');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	'',
-	"00000000-0000-0000-0000-000000000000",
-	"00000000-0000-0000-0000-000000000000",
-	"a6e7c2c7-0fe6-4de2-9078-01fe7445a24f",
-	"00000000-0000-0000-0000-000000000000",
-	"058434ec-b6d9-4146-b440-a3dd37712303",
-	'6:RoomType',
-	'6');
-INSERT INTO I_AVL
-	VALUES ("04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-=======
 	VALUES ("b0a03f10-6586-4b4a-831d-c40ecc2d494a",
 	'',
 	"00000000-0000-0000-0000-000000000000",
@@ -10663,76 +10172,31 @@ INSERT INTO I_AVL
 	'5');
 INSERT INTO I_AVL
 	VALUES ("b0a03f10-6586-4b4a-831d-c40ecc2d494a",
->>>>>>> Added test which tries to violates our business rules
 	"b1adf073-7b71-440e-935f-826f5e749700",
 	"f41d3ac8-2ae5-4ea6-ab79-bbadf01358cc",
 	'Single',
 	'name = Single',
-<<<<<<< HEAD
-	"350bef4d-2e2b-42ca-a1ad-32f798a035f7");
-INSERT INTO I_AVL
-	VALUES ("04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-=======
 	"f5f75f5e-a742-45b8-93cd-7fc63b1dd4bd");
 INSERT INTO I_AVL
 	VALUES ("b0a03f10-6586-4b4a-831d-c40ecc2d494a",
->>>>>>> Added test which tries to violates our business rules
 	"b1adf073-7b71-440e-935f-826f5e749700",
 	"c6361741-fd0b-4760-88de-348c5717ea5e",
 	'1',
 	'nBeds = 1',
-<<<<<<< HEAD
-	"a098ad5c-a54c-46b0-b2ce-3536ac575d24");
-INSERT INTO I_AVL
-	VALUES ("04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-=======
 	"6ef4178f-dfef-4538-b381-da5f133027be");
 INSERT INTO I_AVL
 	VALUES ("b0a03f10-6586-4b4a-831d-c40ecc2d494a",
->>>>>>> Added test which tries to violates our business rules
 	"b1adf073-7b71-440e-935f-826f5e749700",
 	"a396e367-88d2-4e79-a421-be50d1e9ca19",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"bb4a036e-abbf-4d26-982c-77842837d784");
-INSERT INTO I_AVL
-	VALUES ("04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-=======
 	"086c8ec1-43db-4a61-a568-35f83c02e0c0");
 INSERT INTO I_AVL
 	VALUES ("b0a03f10-6586-4b4a-831d-c40ecc2d494a",
->>>>>>> Added test which tries to violates our business rules
 	"b1adf073-7b71-440e-935f-826f5e749700",
 	"b5659084-d115-4595-8661-504387f5aa6b",
 	'3000',
 	'price = 3000',
-<<<<<<< HEAD
-	"29c3dbd2-9b76-4caf-a4d7-1d39a48db9cf");
-INSERT INTO I_LIP
-	VALUES ("c05cb543-b344-47bd-86c8-93728a072fbb",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	'R1');
-INSERT INTO I_LIP
-	VALUES ("592f97e0-7ccd-4fca-ab9c-bf20d3b4e425",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	'R2');
-INSERT INTO I_LIP
-	VALUES ("17685063-2086-4fde-9a28-69787f34839f",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	'R3');
-INSERT INTO I_LIP
-	VALUES ("abf6a0d5-86e2-4cbd-afba-a556a399da05",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	'R9');
-INSERT INTO I_LIP
-	VALUES ("42eace1f-c4c3-4883-9f5e-beafde716e99",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-	'R16');
-INSERT INTO I_LIP
-	VALUES ("8569d912-eda5-44e0-86a7-e3014f6e2aa1",
-	"04d1e2b3-ecd8-45b6-bb9f-05b5e2421171",
-=======
 	"d69f776d-0627-4569-885d-b26f95970629");
 INSERT INTO I_LIP
 	VALUES ("c05cb543-b344-47bd-86c8-93728a072fbb",
@@ -10757,7 +10221,6 @@ INSERT INTO I_LIP
 INSERT INTO I_LIP
 	VALUES ("8569d912-eda5-44e0-86a7-e3014f6e2aa1",
 	"b0a03f10-6586-4b4a-831d-c40ecc2d494a",
->>>>>>> Added test which tries to violates our business rules
 	'R18');
 INSERT INTO PE_PE
 	VALUES ("ce6590b3-a578-4fcb-bbd5-ea57007abd17",
@@ -11761,11 +11224,6 @@ INSERT INTO DIM_GE
 	VALUES (5808.000000,
 	3108.000000,
 	"2f26d546-992e-44e3-a11f-fca23d9491b9",
-<<<<<<< HEAD
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO DIM_ELE
-	VALUES ("2f26d546-992e-44e3-a11f-fca23d9491b9",
-=======
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO DIM_ELE
 	VALUES ("2f26d546-992e-44e3-a11f-fca23d9491b9",
@@ -11793,7 +11251,6 @@ INSERT INTO DIM_GE
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO DIM_ELE
 	VALUES ("4730d7ec-0324-4697-b1a7-ddc213f6af6c",
->>>>>>> Added test which tries to violates our business rules
 	0,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO DIM_DIA
@@ -13724,30 +13181,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("4e65b6b8-5a27-4da8-a01c-0bc3b87db923",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("fda42150-25c6-4e9b-92f1-07b4bbdd06d8",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"12f02485-00e3-4312-a111-2159b86c51e7",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'AddBillItemTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("b2d47f3e-d5ee-4f26-89e1-bab4ab8c43fc",
-	'',
-	"cf15d0d2-f707-4eed-b0e2-583a2772b1f9",
-	"65bdc3d1-a0dd-44f9-97ed-e0afc658a0bb",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"d21b0c3b-a2b9-4782-b042-cddc641bc6be",
-	"4e65b6b8-5a27-4da8-a01c-0bc3b87db923",
-	'6:AddBillItemTest',
-	'6');
-INSERT INTO I_AVL
-	VALUES ("b2d47f3e-d5ee-4f26-89e1-bab4ab8c43fc",
-=======
 	VALUES ("43d8e558-c2de-429e-902a-1eff3d3112e6",
 	'',
 	"cf15d0d2-f707-4eed-b0e2-583a2772b1f9",
@@ -13759,34 +13198,17 @@ INSERT INTO I_AVL
 	'6');
 INSERT INTO I_AVL
 	VALUES ("43d8e558-c2de-429e-902a-1eff3d3112e6",
->>>>>>> Added test which tries to violates our business rules
 	"12f02485-00e3-4312-a111-2159b86c51e7",
 	"591828de-90b7-4d1c-9691-2005af1feb47",
 	'-1',
 	'reservationId = -1',
-<<<<<<< HEAD
-	"09134719-d4c0-439d-87dc-dbff9216f98f");
-INSERT INTO I_AVL
-	VALUES ("b2d47f3e-d5ee-4f26-89e1-bab4ab8c43fc",
-=======
 	"119e5b92-dbd2-4523-a8ad-08bef843007e");
 INSERT INTO I_AVL
 	VALUES ("43d8e558-c2de-429e-902a-1eff3d3112e6",
->>>>>>> Added test which tries to violates our business rules
 	"12f02485-00e3-4312-a111-2159b86c51e7",
 	"6fc373aa-ccf1-412a-8625-8110f7b8546c",
 	'8',
 	'id = 8',
-<<<<<<< HEAD
-	"d426928b-15d6-4d31-bd32-267ebdfad02b");
-INSERT INTO I_AVL
-	VALUES ("b2d47f3e-d5ee-4f26-89e1-bab4ab8c43fc",
-	"12f02485-00e3-4312-a111-2159b86c51e7",
-	"75f017e0-29e3-4a2f-90fc-40d09fb076ab",
-	'5',
-	'nbrOfBillItems = 5',
-	"8e674b17-0cb3-4437-a15f-0b85feed7fc6");
-=======
 	"c3b97eb8-9660-4759-bf35-01039492b7bc");
 INSERT INTO I_AVL
 	VALUES ("43d8e558-c2de-429e-902a-1eff3d3112e6",
@@ -13795,7 +13217,6 @@ INSERT INTO I_AVL
 	'4',
 	'nbrOfBillItems = 4',
 	"d5bcc798-5ca1-4dca-a7f3-6250f07fcb83");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("1c5df10a-4c5c-4354-a13d-2231a74ae335",
 	1,
@@ -15110,30 +14531,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("78ba997a-791a-4d10-a9f9-ca329f8b2e9d",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("c51ee3af-9935-4752-a005-fbc63128f530",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"1c5df10a-4c5c-4354-a13d-2231a74ae335",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'AddCustomerTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("7dd4e964-9bf6-4ced-9255-ae35886b6f31",
-	'',
-	"ef56507d-07d2-46bd-b15d-d912aff5ddf8",
-	"411dd9fd-1cbe-4d3f-b64c-5a29b3774fef",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"7e457700-c092-426e-a422-1fe2c165a0eb",
-	"78ba997a-791a-4d10-a9f9-ca329f8b2e9d",
-	'1:AddCustomerTest',
-	'1');
-INSERT INTO I_AVL
-	VALUES ("7dd4e964-9bf6-4ced-9255-ae35886b6f31",
-=======
 	VALUES ("7c090bf3-7da8-41e2-b39e-9c2bdb40d25c",
 	'',
 	"ef56507d-07d2-46bd-b15d-d912aff5ddf8",
@@ -15145,29 +14548,18 @@ INSERT INTO I_AVL
 	'5');
 INSERT INTO I_AVL
 	VALUES ("7c090bf3-7da8-41e2-b39e-9c2bdb40d25c",
->>>>>>> Added test which tries to violates our business rules
 	"1c5df10a-4c5c-4354-a13d-2231a74ae335",
 	"9e689e18-9ff6-4826-9d10-0e426584e2e5",
 	'6',
 	'id = 6',
-<<<<<<< HEAD
-	"5df68593-540f-452a-8619-d10a858e9543");
-INSERT INTO I_AVL
-	VALUES ("7dd4e964-9bf6-4ced-9255-ae35886b6f31",
-=======
 	"65b1b58e-08db-46f0-8d89-b4ddfedb0011");
 INSERT INTO I_AVL
 	VALUES ("7c090bf3-7da8-41e2-b39e-9c2bdb40d25c",
->>>>>>> Added test which tries to violates our business rules
 	"1c5df10a-4c5c-4354-a13d-2231a74ae335",
 	"efd911d7-6a69-4709-8e2d-335b0feafa88",
 	'-1',
 	'customerCount = -1',
-<<<<<<< HEAD
-	"98c89ee8-78c5-49bf-88b2-0bc78cc46115");
-=======
 	"ddbdf33c-1bbe-4715-84fb-0f3837973830");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("995cd45d-57ae-4b56-8cb6-3359416e516a",
 	1,
@@ -16955,30 +16347,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("711e5674-6f95-41e4-b099-0f14a6c69526",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("e34e7da4-359e-471b-95ae-ade9c3cb89d1",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"995cd45d-57ae-4b56-8cb6-3359416e516a",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'AddRoomTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("bbbc0e7e-cfc0-46bf-97c1-4283734d9081",
-	'',
-	"4312e810-a47d-4401-b674-6cf7e73d374c",
-	"6b1231b3-1658-43e5-884a-a781e2204b05",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"f7ed7b33-f0c6-4b31-87f1-9fcbfc617922",
-	"711e5674-6f95-41e4-b099-0f14a6c69526",
-	'3:AddRoomTest',
-	'3');
-INSERT INTO I_AVL
-	VALUES ("bbbc0e7e-cfc0-46bf-97c1-4283734d9081",
-=======
 	VALUES ("ffad2656-a535-42f2-b073-0321eccbbf98",
 	'',
 	"4312e810-a47d-4401-b674-6cf7e73d374c",
@@ -16990,29 +16364,18 @@ INSERT INTO I_AVL
 	'2');
 INSERT INTO I_AVL
 	VALUES ("ffad2656-a535-42f2-b073-0321eccbbf98",
->>>>>>> Added test which tries to violates our business rules
 	"995cd45d-57ae-4b56-8cb6-3359416e516a",
 	"f61e3936-d5ce-4ec8-8dfa-c84f0703457c",
 	'2',
 	'id = 2',
-<<<<<<< HEAD
-	"3182d46b-64e4-4cc3-b942-b6160562e14a");
-INSERT INTO I_AVL
-	VALUES ("bbbc0e7e-cfc0-46bf-97c1-4283734d9081",
-=======
 	"60dbf440-0891-45d7-8d43-fb6d73d8d1cf");
 INSERT INTO I_AVL
 	VALUES ("ffad2656-a535-42f2-b073-0321eccbbf98",
->>>>>>> Added test which tries to violates our business rules
 	"995cd45d-57ae-4b56-8cb6-3359416e516a",
 	"7cb0c83d-3042-4070-881b-377542e17447",
 	'-1',
 	'roomCount = -1',
-<<<<<<< HEAD
-	"ed4b7575-5a82-47e7-aaf6-27013d7c59d6");
-=======
 	"a73aa84f-b40a-4186-aec0-1b029eb33f85");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("cb19f687-1608-416c-98a2-86ee056a5197",
 	1,
@@ -18329,30 +17692,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("e271bd11-75aa-4b63-80fd-0830ee1e5c5f",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("b9ec9f8b-a3ed-450e-b1be-aaab0052eca0",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"cb19f687-1608-416c-98a2-86ee056a5197",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'AddRoomTypeTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("6767e176-9d02-4ed6-9d0e-b624cb3bdf55",
-	'',
-	"e9ec7808-4979-4747-8d1b-0c8c82074ba9",
-	"438a067f-9993-4157-848e-aad95f3156c2",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"5c810f20-3e7a-4059-b646-8eb9574854cb",
-	"e271bd11-75aa-4b63-80fd-0830ee1e5c5f",
-	'2:AddRoomTypeTest',
-	'2');
-INSERT INTO I_AVL
-	VALUES ("6767e176-9d02-4ed6-9d0e-b624cb3bdf55",
-=======
 	VALUES ("e02c079d-8b23-4ef5-8e58-c288e9c2a1c4",
 	'',
 	"e9ec7808-4979-4747-8d1b-0c8c82074ba9",
@@ -18364,29 +17709,18 @@ INSERT INTO I_AVL
 	'1');
 INSERT INTO I_AVL
 	VALUES ("e02c079d-8b23-4ef5-8e58-c288e9c2a1c4",
->>>>>>> Added test which tries to violates our business rules
 	"cb19f687-1608-416c-98a2-86ee056a5197",
 	"b41bbf00-5484-4814-9c84-5af794e859fa",
 	'1',
 	'id = 1',
-<<<<<<< HEAD
-	"92f6993b-1f0f-4cde-a0b7-7c61e15d845d");
-INSERT INTO I_AVL
-	VALUES ("6767e176-9d02-4ed6-9d0e-b624cb3bdf55",
-=======
 	"0ac6c338-04b3-4a13-81b3-46f36ff473e9");
 INSERT INTO I_AVL
 	VALUES ("e02c079d-8b23-4ef5-8e58-c288e9c2a1c4",
->>>>>>> Added test which tries to violates our business rules
 	"cb19f687-1608-416c-98a2-86ee056a5197",
 	"dc5d080d-efee-4d49-a9b9-f0ca3f7e58b0",
 	'0',
 	'roomTypeCount = 0',
-<<<<<<< HEAD
-	"80a46808-521c-4b7a-a65f-fae21acfb411");
-=======
 	"ecccf537-910f-4769-9a15-c5f0e1adc5ed");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("bc8ef2dd-7639-4a94-affa-cbfea56e29b9",
 	1,
@@ -19905,30 +19239,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("af998f20-0213-4233-a021-14ddadd06e81",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("4cd74d18-bf46-45b4-8457-35d32dfed632",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"bc8ef2dd-7639-4a94-affa-cbfea56e29b9",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'CheckInTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("a7411129-4ab5-45bb-891d-aab0219f2cf2",
-	'',
-	"8bab85ef-658d-472d-a6bf-e857f56e89df",
-	"b9569063-b87a-4423-bc13-da764f9f2aff",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"165da682-921f-494a-abaa-4c7c6969130b",
-	"af998f20-0213-4233-a021-14ddadd06e81",
-	'5:CheckInTest',
-	'5');
-INSERT INTO I_AVL
-	VALUES ("a7411129-4ab5-45bb-891d-aab0219f2cf2",
-=======
 	VALUES ("0f93e3af-c042-4f99-9145-927d62c212d0",
 	'',
 	"8bab85ef-658d-472d-a6bf-e857f56e89df",
@@ -19940,16 +19256,11 @@ INSERT INTO I_AVL
 	'7');
 INSERT INTO I_AVL
 	VALUES ("0f93e3af-c042-4f99-9145-927d62c212d0",
->>>>>>> Added test which tries to violates our business rules
 	"bc8ef2dd-7639-4a94-affa-cbfea56e29b9",
 	"2580f86f-40e7-4c98-a4ae-c6725f340fa2",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"deb2568d-02e7-4ea6-a76c-480de0ed4e31");
-=======
 	"60339f0b-b133-4a78-8b36-345d3e33f2a6");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("e39cbc8f-d18e-425d-be01-56d9365e7762",
 	1,
@@ -21738,30 +21049,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("0b64ff9d-31c4-4f9d-8b77-78f0719c713b",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("d34b1df1-8a63-48fe-9f6a-0e7ab2a4d333",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"e39cbc8f-d18e-425d-be01-56d9365e7762",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'CheckOutTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("e9025598-c855-4281-bb6b-647feb5784cb",
-	'',
-	"bd410fb0-78a5-4365-96f1-05f5bd9789bb",
-	"e111850e-5c30-4d70-9b0d-a204a48de479",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"b8fd007e-0e80-4714-887b-ca040fa74897",
-	"0b64ff9d-31c4-4f9d-8b77-78f0719c713b",
-	'8:CheckOutTest',
-	'8');
-INSERT INTO I_AVL
-	VALUES ("e9025598-c855-4281-bb6b-647feb5784cb",
-=======
 	VALUES ("3fc9872c-1130-4edf-98fe-d592469116ac",
 	'',
 	"bd410fb0-78a5-4365-96f1-05f5bd9789bb",
@@ -21773,29 +21066,18 @@ INSERT INTO I_AVL
 	'9');
 INSERT INTO I_AVL
 	VALUES ("3fc9872c-1130-4edf-98fe-d592469116ac",
->>>>>>> Added test which tries to violates our business rules
 	"e39cbc8f-d18e-425d-be01-56d9365e7762",
 	"7994c384-0537-4f48-8803-587b24aa1f27",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"10f12d63-c014-44f4-b203-06c719a4515b");
-INSERT INTO I_AVL
-	VALUES ("e9025598-c855-4281-bb6b-647feb5784cb",
-=======
 	"0bd0df91-b331-46f0-a4e6-112296411cbb");
 INSERT INTO I_AVL
 	VALUES ("3fc9872c-1130-4edf-98fe-d592469116ac",
->>>>>>> Added test which tries to violates our business rules
 	"e39cbc8f-d18e-425d-be01-56d9365e7762",
 	"b54404d1-4d2b-49e6-b23e-3a936d52cff3",
 	'0',
 	'reservationId = 0',
-<<<<<<< HEAD
-	"4c51e225-57a6-48df-97dc-42f44a7d1a50");
-=======
 	"be53fef0-e414-44fa-a303-b4d99ab67132");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("413abf05-1f48-4df9-a70c-920b927c4f0a",
 	1,
@@ -23464,30 +22746,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("b1237ef8-cff8-4091-a7fc-21d80e882e83",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("f2654ba3-4dcc-4c54-b799-1c4da1ab875f",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"413abf05-1f48-4df9-a70c-920b927c4f0a",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'CreateReservationTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("76cfdb0e-d2df-42fa-9dee-379bf14c4ce6",
-	'',
-	"c0b63fda-9e3a-4a9d-a2d2-b2864684d63f",
-	"985a2160-8ae6-434a-ad1d-c901954feac7",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"e1145714-5303-48f4-b674-e4349e1afaa4",
-	"b1237ef8-cff8-4091-a7fc-21d80e882e83",
-	'4:CreateReservationTest',
-	'4');
-INSERT INTO I_AVL
-	VALUES ("76cfdb0e-d2df-42fa-9dee-379bf14c4ce6",
-=======
 	VALUES ("aa1f0d9b-a9ef-4316-819e-c88ce51e73db",
 	'',
 	"c0b63fda-9e3a-4a9d-a2d2-b2864684d63f",
@@ -23499,55 +22763,32 @@ INSERT INTO I_AVL
 	'4');
 INSERT INTO I_AVL
 	VALUES ("aa1f0d9b-a9ef-4316-819e-c88ce51e73db",
->>>>>>> Added test which tries to violates our business rules
 	"413abf05-1f48-4df9-a70c-920b927c4f0a",
 	"5eeb955c-7c73-40db-83c4-04a7c378480f",
 	'3',
 	'id = 3',
-<<<<<<< HEAD
-	"a0f64b57-91c1-4781-801a-bad838ccf231");
-INSERT INTO I_AVL
-	VALUES ("76cfdb0e-d2df-42fa-9dee-379bf14c4ce6",
-=======
 	"ee99fd2e-5137-42e9-bb99-210f7f6f9145");
 INSERT INTO I_AVL
 	VALUES ("aa1f0d9b-a9ef-4316-819e-c88ce51e73db",
->>>>>>> Added test which tries to violates our business rules
 	"413abf05-1f48-4df9-a70c-920b927c4f0a",
 	"d7199a75-e9f1-48f7-ab15-40f9e368e5a9",
 	'-1',
 	'startDate = -1',
-<<<<<<< HEAD
-	"346d18e5-e8bf-4c6c-a304-b6b131b356ee");
-INSERT INTO I_AVL
-	VALUES ("76cfdb0e-d2df-42fa-9dee-379bf14c4ce6",
-=======
 	"e67005dd-1ad9-462f-96ea-929e8eea095f");
 INSERT INTO I_AVL
 	VALUES ("aa1f0d9b-a9ef-4316-819e-c88ce51e73db",
->>>>>>> Added test which tries to violates our business rules
 	"413abf05-1f48-4df9-a70c-920b927c4f0a",
 	"3ade728c-e31a-45d9-93d9-be2117ddd051",
 	'-1',
 	'endDate = -1',
-<<<<<<< HEAD
-	"695bfb92-5e51-47bd-b5a2-01f48ccfee04");
-INSERT INTO I_AVL
-	VALUES ("76cfdb0e-d2df-42fa-9dee-379bf14c4ce6",
-=======
 	"6a5a8b59-0741-4049-abcc-0030eea46454");
 INSERT INTO I_AVL
 	VALUES ("aa1f0d9b-a9ef-4316-819e-c88ce51e73db",
->>>>>>> Added test which tries to violates our business rules
 	"413abf05-1f48-4df9-a70c-920b927c4f0a",
 	"c67c0762-b58b-4bbb-b9e1-194b4667c140",
 	'-1',
 	'roomType = -1',
-<<<<<<< HEAD
-	"ecf83d02-9e19-470c-a4ed-8b9c4cdb44cc");
-=======
 	"d9ba8809-27b7-4ed6-b92a-2eae147d52e3");
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("32fef1f9-24e9-4d06-834d-cc4f4b18fbdf",
 	1,
@@ -25960,30 +25201,12 @@ INSERT INTO DIM_DIA
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO CSME_CIE
-<<<<<<< HEAD
-	VALUES ("d087a4c7-e17a-44c0-ad51-2116f01f9d6b",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-=======
 	VALUES ("67a31143-7385-4ca3-bf0c-ac59acdf989d",
 	"5a9c1ccd-95d0-45f8-9854-e047678c9dc7",
->>>>>>> Added test which tries to violates our business rules
 	"32fef1f9-24e9-4d06-834d-cc4f4b18fbdf",
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	'PayBillTest');
 INSERT INTO I_INS
-<<<<<<< HEAD
-	VALUES ("891365b0-8a26-478e-b5b1-4af606377dcb",
-	'',
-	"8a3cd0a6-18ea-4e56-9a1e-acb82e186704",
-	"5ac99708-5ef0-452e-a6a7-5e94b4a66bbb",
-	"d1545cac-b33f-4bec-a829-9c0d6e74f002",
-	"1057edbf-bc07-4184-bd38-df7e95da28e1",
-	"d087a4c7-e17a-44c0-ad51-2116f01f9d6b",
-	'7:PayBillTest',
-	'7');
-INSERT INTO I_AVL
-	VALUES ("891365b0-8a26-478e-b5b1-4af606377dcb",
-=======
 	VALUES ("06495d99-7110-4acb-8c47-ff591ec59440",
 	'',
 	"8a3cd0a6-18ea-4e56-9a1e-acb82e186704",
@@ -25995,51 +25218,23 @@ INSERT INTO I_AVL
 	'8');
 INSERT INTO I_AVL
 	VALUES ("06495d99-7110-4acb-8c47-ff591ec59440",
->>>>>>> Added test which tries to violates our business rules
 	"32fef1f9-24e9-4d06-834d-cc4f4b18fbdf",
 	"965fea3e-da16-48d8-8d1c-a117e9c36dfc",
 	'0',
 	'id = 0',
-<<<<<<< HEAD
-	"7d8b0662-7322-446f-ba0b-45e1c0b50a5a");
-INSERT INTO I_AVL
-	VALUES ("891365b0-8a26-478e-b5b1-4af606377dcb",
-=======
 	"4a1fe4b5-e8f5-4990-84a8-f5cacb9ed162");
 INSERT INTO I_AVL
 	VALUES ("06495d99-7110-4acb-8c47-ff591ec59440",
->>>>>>> Added test which tries to violates our business rules
 	"32fef1f9-24e9-4d06-834d-cc4f4b18fbdf",
 	"97a1e982-ef48-4fc5-aa80-d970cd4df139",
 	'-1',
 	'reservationId = -1',
-<<<<<<< HEAD
-	"63921b6b-f5dc-4fce-b3c7-9462ff5a7cbb");
-INSERT INTO PE_PE
-	VALUES ("db9d3d17-4a85-49ea-8f39-c5692253ac81",
-=======
 	"64ad405c-373c-4c3f-98aa-b49103dfc5be");
 INSERT INTO PE_PE
 	VALUES ("7715e293-2ebb-44f6-aa26-cd32f7965312",
->>>>>>> Added test which tries to violates our business rules
 	1,
 	"822d227e-1f48-4b78-b5db-7e0916b58259",
 	"00000000-0000-0000-0000-000000000000",
-<<<<<<< HEAD
-	"24c8cd89-a8ba-4dbd-8dcf-4bcefe9f4d00",
-	7);
-INSERT INTO EP_PKG
-	VALUES ("db9d3d17-4a85-49ea-8f39-c5692253ac81",
-	"00000000-0000-0000-0000-000000000000",
-	"bebdb831-1f3a-4ef5-8154-b7b9152182e7",
-	'Functions',
-	'',
-	0);
-INSERT INTO GD_MD
-	VALUES ("22ced68f-4c82-4806-acce-fe0c6856f4a2",
-	112,
-	"db9d3d17-4a85-49ea-8f39-c5692253ac81",
-=======
 	7);
 INSERT INTO EP_PKG
 	VALUES ("7715e293-2ebb-44f6-aa26-cd32f7965312",
@@ -26052,7 +25247,6 @@ INSERT INTO GD_MD
 	VALUES ("a915dfc8-a9e7-487a-81ef-2b8959f8f180",
 	112,
 	"7715e293-2ebb-44f6-aa26-cd32f7965312",
->>>>>>> Added test which tries to violates our business rules
 	108,
 	0,
 	0,
@@ -26067,35 +25261,6 @@ INSERT INTO GD_MD
 	150,
 	0,
 	'4.1.0',
-<<<<<<< HEAD
-	'hotel::System-1::User::Functions');
-INSERT INTO GD_GE
-	VALUES ("45569bcf-8122-45e6-8cef-83c429341186",
-	"22ced68f-4c82-4806-acce-fe0c6856f4a2",
-	"e099b7a6-2103-4f3c-862b-a659bd5e80df",
-	108,
-	0,
-	'hotel::System-1::User::Functions::Tests');
-INSERT INTO GD_SHP
-	VALUES ("45569bcf-8122-45e6-8cef-83c429341186");
-INSERT INTO GD_NCS
-	VALUES ("45569bcf-8122-45e6-8cef-83c429341186");
-INSERT INTO DIM_ND
-	VALUES (200.000000,
-	150.000000,
-	"45569bcf-8122-45e6-8cef-83c429341186");
-INSERT INTO DIM_GE
-	VALUES (0.000000,
-	0.000000,
-	"45569bcf-8122-45e6-8cef-83c429341186",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO DIM_ELE
-	VALUES ("45569bcf-8122-45e6-8cef-83c429341186",
-	0,
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO DIM_DIA
-	VALUES ("22ced68f-4c82-4806-acce-fe0c6856f4a2",
-=======
 	'hotel::System-1::User::Classes::ViolationTests');
 INSERT INTO GD_GE
 	VALUES ("97d6cf53-87da-474c-bc6f-1426e44a62ee",
@@ -26147,39 +25312,12 @@ INSERT INTO DIM_ELE
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO DIM_DIA
 	VALUES ("a915dfc8-a9e7-487a-81ef-2b8959f8f180",
->>>>>>> Added test which tries to violates our business rules
 	'',
 	1.000000,
 	4000.000000,
 	3000.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO PE_PE
-<<<<<<< HEAD
-	VALUES ("011e5433-5551-479c-8e55-15b3a8b1cc52",
-	1,
-	"db9d3d17-4a85-49ea-8f39-c5692253ac81",
-	"00000000-0000-0000-0000-000000000000",
-	1);
-INSERT INTO S_SYNC
-	VALUES ("011e5433-5551-479c-8e55-15b3a8b1cc52",
-	"00000000-0000-0000-0000-000000000000",
-	'Initialize',
-	'',
-	'// Initialize hotel
-HotelPort::initialize();
-',
-	"ba5eda7a-def5-0000-0000-000000000000",
-	1,
-	'');
-INSERT INTO PE_PE
-	VALUES ("e5fc3780-b6af-40a4-b4e2-c1c194f15f49",
-	1,
-	"db9d3d17-4a85-49ea-8f39-c5692253ac81",
-	"00000000-0000-0000-0000-000000000000",
-	1);
-INSERT INTO S_SYNC
-	VALUES ("e5fc3780-b6af-40a4-b4e2-c1c194f15f49",
-=======
 	VALUES ("f0f21d6c-1240-4b01-b4a6-eb121899c400",
 	1,
 	"7715e293-2ebb-44f6-aa26-cd32f7965312",
@@ -26201,48 +25339,11 @@ INSERT INTO O_BATTR
 INSERT INTO O_ATTR
 	VALUES ("f2160b3b-63af-4961-917a-638c7b2e4f0f",
 	"f0f21d6c-1240-4b01-b4a6-eb121899c400",
->>>>>>> Added test which tries to violates our business rules
 	"00000000-0000-0000-0000-000000000000",
 	'current_state',
 	'',
-<<<<<<< HEAD
-	'// Initialize with random data
-HotelPort::initializeData();
-',
-	"ba5eda7a-def5-0000-0000-000000000000",
-	1,
-	'');
-INSERT INTO PE_PE
-	VALUES ("e099b7a6-2103-4f3c-862b-a659bd5e80df",
-	1,
-	"db9d3d17-4a85-49ea-8f39-c5692253ac81",
-	"00000000-0000-0000-0000-000000000000",
-	7);
-INSERT INTO EP_PKG
-	VALUES ("e099b7a6-2103-4f3c-862b-a659bd5e80df",
-	"00000000-0000-0000-0000-000000000000",
-	"bebdb831-1f3a-4ef5-8154-b7b9152182e7",
-	'Tests',
-	'',
-	0);
-INSERT INTO GD_MD
-	VALUES ("894a65b3-8907-41a3-99bd-bdbdc5b9d435",
-	112,
-	"e099b7a6-2103-4f3c-862b-a659bd5e80df",
-	108,
-	0,
-	0,
-	1,
-	1,
-	1,
-	12,
-	1,
-	0,
-	0,
-=======
 	'',
 	'current_state',
->>>>>>> Added test which tries to violates our business rules
 	0,
 	"ba5eda7a-def5-0000-0000-000000000006",
 	'',
@@ -26280,27 +25381,6 @@ INSERT INTO O_ATTR
 	'',
 	'startDate',
 	0,
-<<<<<<< HEAD
-	'4.1.0',
-	'hotel::System-1::User::Functions::Tests');
-INSERT INTO DIM_DIA
-	VALUES ("894a65b3-8907-41a3-99bd-bdbdc5b9d435",
-	'',
-	1.000000,
-	4000.000000,
-	3000.000000,
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO PE_PE
-	VALUES ("bc98827b-7bd8-4a51-942a-8dc7fc67aa59",
-	1,
-	"e099b7a6-2103-4f3c-862b-a659bd5e80df",
-	"00000000-0000-0000-0000-000000000000",
-	1);
-INSERT INTO S_SYNC
-	VALUES ("bc98827b-7bd8-4a51-942a-8dc7fc67aa59",
-	"00000000-0000-0000-0000-000000000000",
-	'AddRoomType',
-=======
 	"ba5eda7a-def5-0000-0000-000000000002",
 	'',
 	'');
@@ -26320,21 +25400,8 @@ INSERT INTO O_ATTR
 	'endDate',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000002",
->>>>>>> Added test which tries to violates our business rules
 	'',
 	'');
-<<<<<<< HEAD
-INSERT INTO PE_PE
-	VALUES ("49ff991d-9953-4776-a16b-b21aef6a371c",
-	1,
-	"e099b7a6-2103-4f3c-862b-a659bd5e80df",
-	"00000000-0000-0000-0000-000000000000",
-	1);
-INSERT INTO S_SYNC
-	VALUES ("49ff991d-9953-4776-a16b-b21aef6a371c",
-	"00000000-0000-0000-0000-000000000000",
-	'AddRoom',
-=======
 INSERT INTO O_NBATTR
 	VALUES ("6918782d-2121-4100-903d-ecb068611033",
 	"f0f21d6c-1240-4b01-b4a6-eb121899c400");
@@ -26351,11 +25418,8 @@ INSERT INTO O_ATTR
 	'roomType',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000002",
->>>>>>> Added test which tries to violates our business rules
 	'',
 	'');
-<<<<<<< HEAD
-=======
 INSERT INTO O_ID
 	VALUES (0,
 	"f0f21d6c-1240-4b01-b4a6-eb121899c400");
@@ -29232,7 +28296,6 @@ generate AddRoomTest1:''run''(id:2) to roomTest;
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
 	'');
->>>>>>> Added test which tries to violates our business rules
 INSERT INTO PE_PE
 	VALUES ("8e7894bc-137f-41be-abce-ec8f9b18866e",
 	1,
@@ -29352,8 +28415,6 @@ generate AddBillItemTest1:''run''(id:8) to billItemTest;',
 	1,
 	'');
 INSERT INTO PE_PE
-<<<<<<< HEAD
-=======
 	VALUES ("3e25d3d9-ac57-4bce-9c35-078404a814df",
 	1,
 	"e099b7a6-2103-4f3c-862b-a659bd5e80df",
@@ -29435,7 +28496,6 @@ generate DeleteRoomTypeTest1:''run''(id:10) to test;
 	1,
 	'');
 INSERT INTO PE_PE
->>>>>>> Added test which tries to violates our business rules
 	VALUES ("2512ce09-78a0-41d9-a0ba-74a216e567d9",
 	1,
 	"00000000-0000-0000-0000-000000000000",
